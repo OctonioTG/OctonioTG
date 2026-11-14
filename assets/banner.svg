@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0d131f" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+
+    <!-- Blue Glow Gradient -->
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Orange Flame Gradient -->
+    <linearGradient id="orangeAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+
+    <!-- Card/Border Stroke Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Subtle Radial Glow -->
+    <radialGradient id="cyanRadial" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orangeRadial" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#ea580c" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.45" />
+      <circle cx="0" cy="0" r="1" fill="#38bdf8" fill-opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #ffffff; letter-spacing: -0.5px; }
+    .title-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 600; font-size: 16px; fill: #38bdf8; letter-spacing: 1.5px; text-transform: uppercase; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 400; font-size: 14px; fill: #94a3b8; }
+    .hud-text { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #f97316; letter-spacing: 1.2px; font-weight: 600; }
+    .hud-dim { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #64748b; letter-spacing: 1px; }
+    .tag-text { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; font-weight: 600; fill: #e2e8f0; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="950" height="280" rx="16" fill="url(#bgGrad)" />
+  <rect width="950" height="280" rx="16" fill="url(#cyanRadial)" />
+  <rect width="950" height="280" rx="16" fill="url(#orangeRadial)" />
+  <rect width="950" height="280" rx="16" fill="url(#cyberGrid)" />
+
+  <!-- Outer HUD Frame -->
+  <rect x="2" y="2" width="946" height="276" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Corner Brackets (Cyber / Pokédex Interface Aesthetic) -->
+  <path d="M 20 40 L 20 20 L 40 20" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 910 20 L 930 20 L 930 40" fill="none" stroke="#f97316" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 20 240 L 20 260 L 40 260" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 910 260 L 930 260 L 930 240" fill="none" stroke="#f97316" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Top Status Bar (Pokédex / Terminal HUD) -->
+  <g transform="translate(45, 36)">
+    <!-- Status Blip -->
+    <circle cx="5" cy="5" r="4.5" fill="#10b981" />
+    <circle cx="5" cy="5" r="7" fill="none" stroke="#10b981" stroke-width="1" opacity="0.6" />
+    <text x="22" y="9" class="hud-dim">SYS://ONLINE</text>
+    <text x="125" y="9" class="hud-dim">•</text>
+    <text x="140" y="9" class="hud-text">TRAINER CLASS: TECH &amp; AUTOMATION DEVELOPER</text>
+    <text x="510" y="9" class="hud-dim">•</text>
+    <text x="525" y="9" class="hud-dim">ID: DEV-0479 // CS ENG</text>
+  </g>
+
+  <!-- Subtle Minimalist Cyber-Pokéball Geometric Watermark (Right Side) -->
+  <g transform="translate(735, 140)" opacity="0.22">
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="6 4" />
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#64748b" stroke-width="1.5" />
+    <!-- Upper Dome Accent -->
+    <path d="M -85 0 A 85 85 0 0 1 85 0 Z" fill="#f97316" fill-opacity="0.12" />
+    <!-- Center Line Trench -->
+    <line x1="-95" y1="0" x2="-28" y2="0" stroke="#38bdf8" stroke-width="4" />
+    <line x1="28" y1="0" x2="95" y2="0" stroke="#f97316" stroke-width="4" />
+    <!-- Center Buttons -->
+    <circle cx="0" cy="0" r="28" fill="#0d131f" stroke="#e2e8f0" stroke-width="3" />
+    <circle cx="0" cy="0" r="14" fill="#0d131f" stroke="#38bdf8" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="6" fill="#f97316" />
+    <!-- Orbital Nodes -->
+    <circle cx="-60" cy="-60" r="3" fill="#38bdf8" />
+    <circle cx="60" cy="60" r="3" fill="#f97316" />
+  </g>
+
+  <!-- Left Content Area -->
+  <!-- Name & Badges -->
+  <text x="45" y="105" class="title-name">Diego Ovalle</text>
+
+  <!-- Professional Role Line -->
+  <text x="45" y="138" class="title-role">Technology &amp; Automation Developer</text>
+
+  <!-- Core Narrative Tagline -->
+  <text x="45" y="172" class="subtitle">"I use technology to solve real-world problems, automate workflows and continuously improve processes."</text>
+
+  <!-- Bottom Pillar Tags / Badges -->
+  <g transform="translate(45, 204)">
+    <!-- Pill 1: Problem Solving -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="30" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#38bdf8" />
+      <text x="28" y="19" class="tag-text">Problem Solver</text>
+    </g>
+
+    <!-- Pill 2: Process Automation -->
+    <g transform="translate(192, 0)">
+      <rect width="180" height="30" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#f97316" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#f97316" />
+      <text x="28" y="19" class="tag-text">Process Automation</text>
+    </g>
+
+    <!-- Pill 3: Lean Six Sigma -->
+    <g transform="translate(384, 0)">
+      <rect width="195" height="30" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#64748b" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#10b981" />
+      <text x="28" y="19" class="tag-text">Continuous Improvement</text>
+    </g>
+
+    <!-- Pill 4: Full-Stack / CS Eng -->
+    <g transform="translate(591, 0)">
+      <rect width="150" height="30" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#64748b" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#a855f7" />
+      <text x="28" y="19" class="tag-text">CS Eng Student</text>
+    </g>
+  </g>
+
+  <!-- Accent Divider Line at the bottom -->
+  <line x1="45" y1="254" x2="400" y2="254" stroke="url(#blueAccent)" stroke-width="2" stroke-linecap="round" />
+  <line x1="410" y1="254" x2="600" y2="254" stroke="url(#orangeAccent)" stroke-width="2" stroke-linecap="round" />
+  <line x1="610" y1="254" x2="905" y2="254" stroke="#334155" stroke-width="1" stroke-linecap="round" />
+</svg>
