@@ -5,33 +5,23 @@
   <img src="assets/banner.svg" alt="Diego Ovalle - Technology & Automation Developer" width="100%" />
 </p>
 
-<!-- 8-Bit Pokémon Engineering Squad Lineup -->
+<!-- Top Squad Lineup -->
 <p align="center">
-  <a title="Lucario: Problem Solving & Lean Six Sigma" href="#engineering-archetypes">
-    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lucario.gif" alt="Lucario" height="60" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a title="Aegislash: Quality Compliance & Dual-Discipline (CS + Physics)" href="#engineering-archetypes">
-    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/aegislash.gif" alt="Aegislash" height="60" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a title="Golurk: Heavy Systems & Process Automation" href="#engineering-archetypes">
-    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/golurk.gif" alt="Golurk" height="65" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a title="Ceruledge: High-Speed Full-Stack Delivery" href="#engineering-archetypes">
-    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/ceruledge.gif" alt="Ceruledge" height="60" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a title="Greninja: Agile SDR Signal Analysis & Prototyping" href="#engineering-archetypes">
-    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/greninja.gif" alt="Greninja" height="55" />
-  </a>
+  <img src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="68" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="68" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="74" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="68" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="62" />
 </p>
 
 <p align="center">
   <a href="#about-me"><img src="https://img.shields.io/badge/Focus-Automation_%26_Problem_Solving-0284c7?style=for-the-badge&logoColor=white" alt="Focus"></a>
   <a href="#areas-of-expertise"><img src="https://img.shields.io/badge/Stack-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
-  <a href="#continuous-improvement--methodologies"><img src="https://img.shields.io/badge/Methodology-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
+  <a href="#continuous-improvement--education"><img src="https://img.shields.io/badge/Methodology-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
   <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-Real--World_Solutions-ea580c?style=for-the-badge&logoColor=white" alt="Projects"></a>
 </p>
 
@@ -41,9 +31,11 @@
 
 ## About Me
 
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="85" />
+
 I am passionate about using technology to solve real-world problems, automate processes, and create practical solutions that make operations more efficient.
 
-My background uniquely bridges **software engineering**, **applied physics**, **process automation**, and **continuous improvement**. Along with my Computer Science Engineering studies, I have completed half of the **Engineering Physics** curriculum—providing me with strong foundations in mathematical modeling, signal processing, and physical systems diagnostics.
+My background uniquely bridges **software engineering**, **applied physics**, **process automation**, and **continuous improvement**. Along with my Computer Science Engineering studies, I have completed half of the **Engineering Physics** curriculum—providing me with strong analytical foundations in mathematical modeling, signal processing, and physical systems diagnostics.
 
 Rather than developing software in isolation, I focus on understanding operations from the ground up: identifying bottlenecks, applying root cause analysis, and engineering scalable solutions that eliminate friction.
 
@@ -56,74 +48,15 @@ Rather than developing software in isolation, I focus on understanding operation
 
 - **Dual Academic Foundation:** Computer Science Engineering &bull; Engineering Physics (50% Completed)
 - **Primary Specialization:** Process Automation, Operational Tooling, Root Cause Analysis, Full-Stack Development
-- **Engineering Philosophy:** Understand the problem, analyze the process, build the solution, and continuously improve it.
-
-<p align="center">
-  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
-</p>
-
-<h2 id="engineering-archetypes">Tactical Squad &bull; Engineering Archetypes</h2>
-
-To balance rigorous analytical problem-solving with software execution, I channel specific operational mindsets:
-
-<table>
-  <thead>
-    <tr align="center">
-      <th width="15%">Unit</th>
-      <th width="20%">Designation</th>
-      <th width="30%">Specialization</th>
-      <th width="35%">Operational Focus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/golurk.gif" alt="Golurk" width="55" />
-      </td>
-      <td><b>Golurk</b><br /><code>Ground / Ghost</code></td>
-      <td><b>Heavy Systems &amp; Automation</b></td>
-      <td>Autonomous background jobs, workflow pipelines, and hardware integration. Silent, resilient system stability.</td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/aegislash.gif" alt="Aegislash" width="55" />
-      </td>
-      <td><b>Aegislash</b><br /><code>Steel / Ghost</code></td>
-      <td><b>Quality &amp; Dual Stance</b></td>
-      <td>Switches between analytical defense (auditing, compliance, physical engineering rigor) and offensive software delivery.</td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lucario.gif" alt="Lucario" width="55" />
-      </td>
-      <td><b>Lucario</b><br /><code>Fighting / Steel</code></td>
-      <td><b>Problem Solving &amp; Lean</b></td>
-      <td>Sensing bottlenecks through data. Disciplined application of Lean Six Sigma, Kaizen, and Root Cause Analysis.</td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/ceruledge.gif" alt="Ceruledge" width="55" />
-      </td>
-      <td><b>Ceruledge</b><br /><code>Fire / Ghost</code></td>
-      <td><b>Modern Full-Stack Execution</b></td>
-      <td>Dual-blade delivery cutting through UI/UX complexity with React, Next.js, and scalable Django backends.</td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/greninja.gif" alt="Greninja" width="55" />
-      </td>
-      <td><b>Greninja</b><br /><code>Water / Dark</code></td>
-      <td><b>Agile SDR &amp; Signal Analysis</b></td>
-      <td>Software-Defined Radio signal processing, rapid prototyping, and adapting to dynamic frequency environments.</td>
-    </tr>
-  </tbody>
-</table>
+- **Engineering Approach:** Understand the problem, analyze the process, build the solution, and continuously improve it.
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
 <h2 id="areas-of-expertise">Areas of Expertise</h2>
+
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="90" />
 
 ### Development & Technology
 Tools and languages used to build web applications, internal dashboards, and data-driven systems:
@@ -136,7 +69,7 @@ Tools and languages used to build web applications, internal dashboards, and dat
 
 - **Programming Languages:** Python, JavaScript (ES6+), SQL, HTML5, CSS3
 - **Frontend Development:** React, Next.js, Tailwind CSS, Responsive Design, State Management
-- **Backend & APIs:** Django, RESTful APIs, Service Architecture
+- **Backend & APIs:** Django, RESTful APIs, Microservices Architecture
 - **Databases:** PostgreSQL, MySQL, MongoDB
 - **Version Control & Tooling:** Git, GitHub, Linux Environments, VS Code
 
@@ -165,13 +98,15 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
 
 - **Quality Assurance & Auditing:** Internal audit workflows, process standardization, error-proofing (Poka-Yoke).
 - **Global Compliance:** Incident tracking, regulatory discrepancy logging, operational alignment.
-- **Physical Engineering Principles:** Mathematical modeling, signal analysis, experimental validation, physical systems intuition.
+- **Physical Engineering Foundations:** Mathematical modeling, signal analysis, experimental validation, physical systems intuition.
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
 <h2 id="featured-projects">Featured Projects & Impact</h2>
+
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="80" />
 
 ### AutoZone &bull; Supply Chain Global Compliance Tools
 *Internal automation and operational tooling for enterprise compliance workflows.*
@@ -210,20 +145,22 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-## Continuous Improvement & Education
+<h2 id="continuous-improvement--education">Continuous Improvement & Education</h2>
 
-| Academic & Technical Discipline | Focus & Competencies |
-| :--- | :--- |
-| **Computer Science Engineering** | Software architecture, algorithms, database systems, web engineering |
-| **Engineering Physics (50% Completed)** | Mathematical modeling, electromagnetism, signal processing, classical & modern physics |
-| **Operational Excellence** | Lean Six Sigma principles, Kaizen mindset, 5S methodology, process mapping |
-| **Quality & Auditing** | Root Cause Analysis (Ishikawa), Standard Operating Procedures (SOP), compliance monitoring |
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="85" />
+
+- **Computer Science Engineering:** Software architecture, algorithms, database systems, distributed systems, web development.
+- **Engineering Physics (50% Completed):** Mathematical modeling, electromagnetism, wave theory, digital signal processing, sensor analysis.
+- **Operational Excellence:** Lean Six Sigma principles, Kaizen continuous improvement mindset, 5S methodology, process mapping.
+- **Quality & Auditing:** Root Cause Analysis (Ishikawa), Standard Operating Procedures (SOP), compliance monitoring, error-proofing.
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
 ## GitHub Analytics
+
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="85" />
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DiegoOvalle348795&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=f97316&border_color=30363d&hide_border=false" alt="Diego's GitHub Stats" width="48%" />
