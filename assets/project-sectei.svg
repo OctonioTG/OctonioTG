@@ -25,7 +25,7 @@
   <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#00f2fe" stroke-width="2.5" />
   
   <text x="34" y="25" class="p-badge">FRONTEND ARCHITECTURE // WEB PLATFORM</text>
-  <text x="34" y="51" class="p-title">SECTEI Builder &bull; Reusable UI Component Engine</text>
+  <text x="34" y="51" class="p-title">SECTEI Builder &#8226; Reusable UI Component Engine</text>
   <text x="34" y="73" class="p-sub">Modular visual layout builder accelerating web interface prototyping and standardizing design systems.</text>
 
   <g transform="translate(630, 30)">

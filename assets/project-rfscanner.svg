@@ -25,7 +25,7 @@
   <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#c084fc" stroke-width="2.5" />
   
   <text x="34" y="25" class="p-badge">APPLIED PHYSICS &amp; SYSTEMS // SDR TELEMETRY</text>
-  <text x="34" y="51" class="p-title">RF Scanner &bull; Real-Time SDR Signal Monitoring &amp; Analysis</text>
+  <text x="34" y="51" class="p-title">RF Scanner &#8226; Real-Time SDR Signal Monitoring &amp; Analysis</text>
   <text x="34" y="73" class="p-sub">Software-Defined Radio signal capture, FFT spectrum diagnostics, and interactive real-time visualization.</text>
 
   <g transform="translate(625, 30)">

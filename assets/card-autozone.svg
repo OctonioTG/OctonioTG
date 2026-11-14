@@ -34,7 +34,7 @@
 
     <!-- Title & Category Badge -->
     <text x="44" y="15" class="title">AutoZone Compliance Tools</text>
-    <text x="44" y="30" class="badge">Supply Chain Automation &bull; Operations</text>
+    <text x="44" y="30" class="badge">Supply Chain Automation &#8226; Operations</text>
   </g>
 
   <!-- Human Description -->

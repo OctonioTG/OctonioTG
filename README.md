@@ -129,12 +129,12 @@ Selected initiatives combining full-stack development, process automation, and a
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="85" />
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DiegoOvalle348795&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00f2fe&text_color=f1f5f9&icon_color=ec4899&border_color=818cf8&hide_border=false" alt="Diego's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoOvalle348795&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00f2fe&text_color=f1f5f9&border_color=818cf8&hide_border=false" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=OctonioTG&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00f2fe&text_color=f1f5f9&icon_color=ec4899&border_color=818cf8&hide_border=false" alt="Diego's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OctonioTG&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00f2fe&text_color=f1f5f9&border_color=818cf8&hide_border=false" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=DiegoOvalle348795&theme=tokyonight&background=0D1117&border=818CF8&stroke=00F2FE&ring=EC4899&fire=F97316&currStreakLabel=00F2FE&sideLabels=F1F5F9" alt="GitHub Streak" width="97%" />
+  <img src="https://streak-stats.demolab.com/?user=OctonioTG&theme=tokyonight&background=0D1117&border=818CF8&stroke=00F2FE&ring=EC4899&fire=F97316&currStreakLabel=00F2FE&sideLabels=F1F5F9" alt="GitHub Streak" width="97%" />
 </p>
 
 <p align="center">
@@ -155,8 +155,8 @@ Always open to discussing software projects, workflow automation, or problem-sol
   <a href="https://www.diegoovalle.dev">
     <img src="https://img.shields.io/badge/Portfolio-diegoovalle.dev-10b981?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://github.com/DiegoOvalle348795">
-    <img src="https://img.shields.io/badge/GitHub-DiegoOvalle348795-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/OctonioTG">
+    <img src="https://img.shields.io/badge/GitHub-OctonioTG-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 

@@ -20,7 +20,7 @@
   <rect x="0" y="8" width="5" height="44" rx="2.5" fill="#c084fc" />
   <text x="20" y="22" class="cat-tag">SYS.ACADEMICS // 04</text>
   <text x="20" y="48" class="hdr-title">Engineering Foundations &amp; Continuous Learning</text>
-  <text x="890" y="32" text-anchor="end" class="hdr-coord">[ CS &bull; ENG.PHYSICS 50% ]</text>
+  <text x="890" y="32" text-anchor="end" class="hdr-coord">[ CS &#8226; ENG.PHYSICS 50% ]</text>
   <line x1="0" y1="60" x2="900" y2="60" stroke="url(#barGlow4)" stroke-width="2" stroke-linecap="round" />
   <circle cx="2.5" cy="60" r="3" fill="#c084fc" />
 </svg>

@@ -31,7 +31,7 @@
     <path d="M 9 11 A 10 10 0 0 1 23 11" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round" />
 
     <text x="44" y="15" class="title">RF Scanner</text>
-    <text x="44" y="30" class="badge">SDR Telemetry &bull; Applied Physics</text>
+    <text x="44" y="30" class="badge">SDR Telemetry &#8226; Applied Physics</text>
   </g>
 
   <text x="24" y="88" class="desc">Real-time spectrum analysis system combining SDR hardware,</text>

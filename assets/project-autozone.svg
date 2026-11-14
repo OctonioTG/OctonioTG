@@ -25,7 +25,7 @@
   <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#f97316" stroke-width="2.5" />
   
   <text x="34" y="25" class="p-badge">ENTERPRISE // SUPPLY CHAIN &amp; COMPLIANCE</text>
-  <text x="34" y="51" class="p-title">AutoZone &bull; Global Compliance Operational Tooling</text>
+  <text x="34" y="51" class="p-title">AutoZone &#8226; Global Compliance Operational Tooling</text>
   <text x="34" y="73" class="p-sub">Internal automation, incident diagnostic pipelines, and operational workflow standardization.</text>
 
   <!-- Tags on Right (Vibrant colored badges) -->
