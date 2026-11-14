@@ -7,71 +7,56 @@
 
 <!-- Top Squad Lineup -->
 <p align="center">
-  <a href="#about-me" title="Lucario: Focus & Analytical Problem Solving"><img src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="68" /></a>
+  <a href="#about-me" title="Lucario: Problem Solving & Focus"><img src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#continuous-learning" title="Aegislash: Quality & Dual Engineering Rigor"><img src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="68" /></a>
+  <a href="#education--background" title="Aegislash: Quality & Engineering Rigor"><img src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#areas-of-expertise" title="Golurk: Heavy Systems & Automation"><img src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="74" /></a>
+  <a href="#tech-stack--methodologies" title="Golurk: Heavy Systems & Automation"><img src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="74" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#github-analytics" title="Ceruledge: High-Speed Full-Stack Delivery"><img src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#featured-projects" title="Greninja: Agile SDR Signal Analysis"><img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="62" /></a>
+  <a href="#featured-projects" title="Greninja: Signal Analysis & Prototyping"><img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="62" /></a>
 </p>
 
-<!-- Radiant Multi-Color Quick Navigation -->
+<!-- Quick Navigation -->
 <p align="center">
-  <a href="#about-me"><img src="https://img.shields.io/badge/FOCUS-Automation_%26_Problem_Solving-00b4d8?style=for-the-badge&logoColor=white" alt="Focus"></a>
-  <a href="#areas-of-expertise"><img src="https://img.shields.io/badge/STACK-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
-  <a href="#continuous-learning"><img src="https://img.shields.io/badge/METHODOLOGY-Lean_Six_Sigma_%7C_Kaizen-10b981?style=for-the-badge&logoColor=white" alt="Methodology"></a>
-  <a href="#featured-projects"><img src="https://img.shields.io/badge/PROJECTS-Real--World_Solutions-ec4899?style=for-the-badge&logoColor=white" alt="Projects"></a>
-  <a href="#continuous-learning"><img src="https://img.shields.io/badge/ACADEMICS-CS_%2B_Physics_50%25-8b5cf6?style=for-the-badge&logoColor=white" alt="Academics"></a>
+  <a href="#about-me"><img src="https://img.shields.io/badge/About_Me-00b4d8?style=for-the-badge&logoColor=white" alt="About Me"></a>
+  <a href="#tech-stack--methodologies"><img src="https://img.shields.io/badge/Tech_Stack-f97316?style=for-the-badge&logoColor=white" alt="Tech Stack"></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-ec4899?style=for-the-badge&logoColor=white" alt="Projects"></a>
+  <a href="#education--background"><img src="https://img.shields.io/badge/Education-8b5cf6?style=for-the-badge&logoColor=white" alt="Education"></a>
+  <a href="#get-in-touch"><img src="https://img.shields.io/badge/Contact-10b981?style=for-the-badge&logoColor=white" alt="Contact"></a>
 </p>
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- ======================================================== -->
-<!-- 01. ABOUT ME                                              -->
-<!-- ======================================================== -->
-<p align="center">
-  <img src="assets/header-about.svg" alt="About Me &amp; Philosophy" width="100%" />
-</p>
+## About Me
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="85" />
 
-I am passionate about using technology to solve real-world problems, automate processes, and create practical solutions that make operations more efficient.
+Hey! I'm **Diego Ovalle**, a Computer Science Engineering student with an applied background in **Engineering Physics** (completed 50% of the program).
 
-My background uniquely bridges **software engineering**, **applied physics**, **process automation**, and **continuous improvement**. Along with my Computer Science Engineering studies, I have completed half of the **Engineering Physics** curriculum—providing me with strong analytical foundations in mathematical modeling, signal processing, and physical systems diagnostics.
+I build software that solves real operational bottlenecks—connecting full-stack web development with process automation, data analysis, and Lean Six Sigma continuous improvement.
 
-Rather than developing software in isolation, I focus on understanding operations from the ground up: identifying bottlenecks, applying root cause analysis, and engineering scalable solutions that eliminate friction.
+> *"Understand the root problem, analyze the process, build the solution, and continuously optimize it."*
 
-> **Core Narrative:**  
-> *"I use technology to solve real-world problems, automate workflows and continuously improve processes."*
+<br />
 
 <p align="center">
-  <img src="assets/workflow.svg" alt="Engineering &amp; Problem Solving Workflow" width="100%" />
+  <img src="assets/workflow.svg" alt="Problem Solving Workflow" width="100%" />
 </p>
-
-- **Dual Academic Foundation:** Computer Science Engineering &bull; Engineering Physics (50% Completed)
-- **Primary Specialization:** Process Automation, Operational Tooling, Root Cause Analysis, Full-Stack Development
-- **Engineering Approach:** Understand the problem, analyze the process, build the solution, and continuously improve it.
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- ======================================================== -->
-<!-- 02. AREAS OF EXPERTISE                                    -->
-<!-- ======================================================== -->
-<p align="center">
-  <img src="assets/header-skills.svg" alt="Technical Arsenal &amp; Methodologies" width="100%" />
-</p>
+## Tech Stack & Methodologies
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="90" />
 
-### Development & Technology
-Tools and languages used to build web applications, internal dashboards, and data-driven systems:
+### Software & Tools
+Languages and frameworks I use for production apps, dashboards, and internal tooling:
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -79,70 +64,46 @@ Tools and languages used to build web applications, internal dashboards, and dat
   </a>
 </p>
 
-- **Programming Languages:** Python, JavaScript (ES6+), SQL, HTML5, CSS3
-- **Frontend Development:** React, Next.js, Tailwind CSS, Responsive Design, State Management
-- **Backend & APIs:** Django, RESTful APIs, Microservices Architecture
-- **Databases:** PostgreSQL, MySQL, MongoDB
-- **Version Control & Tooling:** Git, GitHub, Linux Environments, VS Code
-
-<br />
+- **Core Languages:** Python, JavaScript (ES6+), SQL, HTML5, CSS3
+- **Frontend & UI:** React, Next.js, Tailwind CSS, Responsive Design
+- **Backend & Data:** Django, RESTful APIs, PostgreSQL, MySQL, MongoDB
 
 ### Automation & Continuous Improvement
-Applying structured methodologies to eliminate operational waste and optimize workflows:
-
-- **Lean Six Sigma & Kaizen:** DMAIC process cycle, continuous improvement routines, 5S workplace standardization.
-- **Root Cause Analysis (RCA):** Ishikawa (Fishbone) diagrams, 5 Whys diagnostics, failure mode identification.
-- **Process Mapping & Optimization:** Flowcharts, swimlane diagrams, bottleneck elimination, Standard Operating Procedures (SOPs).
-- **Workflow Automation:** Power Apps, custom automation scripts, internal task pipelines.
+Engineering tools and frameworks to eliminate operational friction and standardize quality:
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC_Cycle-00f2fe?style=for-the-badge&logoColor=white" alt="Lean Six Sigma" />
-  <img src="https://img.shields.io/badge/Methodology-Kaizen-ff7a00?style=for-the-badge&logoColor=white" alt="Kaizen" />
-  <img src="https://img.shields.io/badge/Diagnostics-Ishikawa_%2F_5_Whys-ec4899?style=for-the-badge&logoColor=white" alt="RCA" />
-  <img src="https://img.shields.io/badge/Process_Mapping-BPMN_Flows-8b5cf6?style=for-the-badge&logoColor=white" alt="Process Mapping" />
-  <img src="https://img.shields.io/badge/Automation-Power_Apps-742774?style=for-the-badge&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
-  <img src="https://img.shields.io/badge/Quality_Assurance-Continuous_Improvement-10b981?style=for-the-badge&logoColor=white" alt="Quality" />
+  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC-00f2fe?style=for-the-badge&logoColor=white" alt="Lean Six Sigma" />
+  <img src="https://img.shields.io/badge/Kaizen-Continuous_Improvement-ff7a00?style=for-the-badge&logoColor=white" alt="Kaizen" />
+  <img src="https://img.shields.io/badge/Root_Cause-Ishikawa_%2F_5_Whys-ec4899?style=for-the-badge&logoColor=white" alt="RCA" />
+  <img src="https://img.shields.io/badge/Process_Mapping-BPMN-8b5cf6?style=for-the-badge&logoColor=white" alt="Process Mapping" />
+  <img src="https://img.shields.io/badge/Power_Apps-Automation-742774?style=for-the-badge&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
 </p>
-
-<br />
-
-### Quality, Compliance & Applied Physics
-Ensuring solutions meet technical standards, data integrity, and compliance requirements:
-
-- **Quality Assurance & Auditing:** Internal audit workflows, process standardization, error-proofing (Poka-Yoke).
-- **Global Compliance:** Incident tracking, regulatory discrepancy logging, operational alignment.
-- **Physical Engineering Foundations:** Mathematical modeling, signal analysis, experimental validation, physical systems intuition.
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- ======================================================== -->
-<!-- 03. FEATURED PROJECTS (2X2 COMPACT VISUAL GRID)           -->
-<!-- ======================================================== -->
-<p align="center">
-  <img src="assets/header-projects.svg" alt="Featured Projects &amp; Operational Impact" width="100%" />
-</p>
+## Featured Projects
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="80" />
 
-<p>Engineering initiatives highlighting full-stack execution, process automation, and applied physics:</p>
+Selected initiatives combining full-stack development, process automation, and applied physics:
 
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/card-autozone.svg" alt="AutoZone Project Card" width="100%" />
+      <img src="assets/card-autozone.svg" alt="AutoZone Compliance Tools" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="assets/card-sectei.svg" alt="SECTEI Builder Project Card" width="100%" />
+      <img src="assets/card-sectei.svg" alt="SECTEI Builder" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/card-rfscanner.svg" alt="RF Scanner Project Card" width="100%" />
+      <img src="assets/card-rfscanner.svg" alt="RF Scanner" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="assets/card-educaia.svg" alt="EducaIA Project Card" width="100%" />
+      <img src="assets/card-educaia.svg" alt="EducaIA" width="100%" />
     </td>
   </tr>
 </table>
@@ -151,30 +112,19 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- ======================================================== -->
-<!-- 04. CONTINUOUS LEARNING & ACADEMICS                       -->
-<!-- ======================================================== -->
-<p align="center">
-  <img src="assets/header-education.svg" alt="Engineering Foundations &amp; Continuous Learning" width="100%" />
-</p>
+## Education & Background
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="85" />
 
-- **Computer Science Engineering:** Software architecture, algorithms, database systems, distributed systems, web development.
-- **Engineering Physics (50% Completed):** Mathematical modeling, electromagnetism, wave theory, digital signal processing, sensor analysis.
-- **Operational Excellence:** Lean Six Sigma principles, Kaizen continuous improvement mindset, 5S methodology, process mapping.
-- **Quality & Auditing:** Root Cause Analysis (Ishikawa), Standard Operating Procedures (SOP), compliance monitoring, error-proofing.
+- **Computer Science Engineering:** Algorithms, software architecture, databases, distributed systems, web development.
+- **Engineering Physics (50% Completed):** Electromagnetism, signal processing (SDR), mathematical modeling, wave theory.
+- **Operational Excellence & Quality:** Lean Six Sigma principles, Kaizen mindset, 5S workplace standardization, internal audit workflows.
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- ======================================================== -->
-<!-- 05. GITHUB ANALYTICS                                      -->
-<!-- ======================================================== -->
-<p align="center">
-  <img src="assets/header-stats.svg" alt="Activity Analytics &amp; Repository Stats" width="100%" />
-</p>
+## GitHub Analytics
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="85" />
 
@@ -191,14 +141,9 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- ======================================================== -->
-<!-- 06. CONNECT & COLLABORATE                                 -->
-<!-- ======================================================== -->
-<p align="center">
-  <img src="assets/header-contact.svg" alt="Connect &amp; Collaborate" width="100%" />
-</p>
+## Get In Touch
 
-I am open to discussing software projects, process automation, or technical problem-solving challenges:
+Always open to discussing software projects, workflow automation, or problem-solving opportunities:
 
 <p align="left">
   <a href="mailto:diego.devworks@gmail.com">

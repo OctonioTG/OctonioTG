@@ -1,157 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 310" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 280" width="100%" height="100%">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e1a" />
-      <stop offset="35%" stop-color="#0c1322" />
-      <stop offset="70%" stop-color="#111126" />
-      <stop offset="100%" stop-color="#070a12" />
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0a0d14" />
     </linearGradient>
 
     <!-- Multi-Tone Radiant Border -->
-    <linearGradient id="vibrantBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="vibrantBorder" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe" />
       <stop offset="30%" stop-color="#38bdf8" />
       <stop offset="55%" stop-color="#818cf8" />
-      <stop offset="75%" stop-color="#ec4899" />
+      <stop offset="80%" stop-color="#ec4899" />
       <stop offset="100%" stop-color="#f97316" />
     </linearGradient>
 
     <!-- Title Gradient -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="40%" stop-color="#ffffff" />
-      <stop offset="75%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#818cf8" />
-    </linearGradient>
-
-    <!-- Role Gradient -->
-    <linearGradient id="roleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#f43f5e" />
+      <stop offset="60%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#38bdf8" />
     </linearGradient>
 
     <!-- Ambient Glows -->
-    <radialGradient id="cyanGlow" cx="15%" cy="30%" r="55%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.12" />
+    <radialGradient id="cyanGlow" cx="10%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.22" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="magentaGlow" cx="85%" cy="40%" r="55%">
-      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.25" />
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.12" />
+    <radialGradient id="magentaGlow" cx="90%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="orangeGlow" cx="50%" cy="85%" r="50%">
-      <stop offset="0%" stop-color="#f97316" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Cyber Grid -->
-    <pattern id="colorGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.7" stroke-opacity="0.45" />
-      <circle cx="0" cy="0" r="1.2" fill="#38bdf8" fill-opacity="0.5" />
-    </pattern>
   </defs>
 
   <style>
-    .title-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 900; font-size: 40px; fill: url(#nameGrad); letter-spacing: -0.5px; }
-    .title-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 15px; fill: url(#roleGrad); letter-spacing: 2px; text-transform: uppercase; }
-    .academic-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; font-weight: 700; fill: #f8fafc; }
-    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13.5px; fill: #cbd5e1; }
-    .hud-text { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; }
-    .tag-text { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; font-weight: 700; fill: #ffffff; }
+    .title-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 38px; fill: url(#nameGrad); letter-spacing: -0.5px; }
+    .title-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 15px; fill: #38bdf8; letter-spacing: 1.5px; text-transform: uppercase; }
+    .academic-pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #f1f5f9; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13.5px; fill: #94a3b8; }
+    .status-badge { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #34d399; }
+    .pill-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #ffffff; }
   </style>
 
   <!-- Base Canvas -->
-  <rect width="950" height="310" rx="16" fill="url(#bgGrad)" />
-  <rect width="950" height="310" rx="16" fill="url(#cyanGlow)" />
-  <rect width="950" height="310" rx="16" fill="url(#magentaGlow)" />
-  <rect width="950" height="310" rx="16" fill="url(#orangeGlow)" />
-  <rect width="950" height="310" rx="16" fill="url(#colorGrid)" />
+  <rect width="950" height="280" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.2" />
+  <rect width="950" height="280" rx="14" fill="url(#cyanGlow)" />
+  <rect width="950" height="280" rx="14" fill="url(#magentaGlow)" />
 
-  <!-- Multi-Tone Border -->
-  <rect x="2" y="2" width="946" height="306" rx="15" fill="none" stroke="url(#vibrantBorder)" stroke-width="2" />
+  <!-- Top Accent Glowing Border (Clean Modern Style) -->
+  <path d="M 14 1 L 936 1" stroke="url(#vibrantBorder)" stroke-width="2.5" stroke-linecap="round" />
 
-  <!-- Neon Corner Brackets -->
-  <path d="M 18 40 L 18 18 L 40 18" fill="none" stroke="#00f2fe" stroke-width="3" stroke-linecap="round" />
-  <path d="M 910 18 L 932 18 L 932 40" fill="none" stroke="#ec4899" stroke-width="3" stroke-linecap="round" />
-  <path d="M 18 270 L 18 292 L 40 292" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" />
-  <path d="M 910 292 L 932 292 L 932 270" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" />
-
-  <!-- Status Bar Top -->
+  <!-- Status Indicator Top -->
   <g transform="translate(45, 34)">
-    <circle cx="6" cy="6" r="4.5" fill="#10b981" />
-    <circle cx="6" cy="6" r="7" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.8" />
-    <text x="22" y="10" class="hud-text" fill="#34d399">SYS://ONLINE</text>
-    <text x="130" y="10" fill="#64748b">•</text>
-    <text x="145" y="10" class="hud-text" fill="#38bdf8">CLASS: TECHNOLOGY &amp; AUTOMATION DEVELOPER</text>
-    <text x="495" y="10" fill="#64748b">•</text>
-    <text x="510" y="10" class="hud-text" fill="#f43f5e">CS ENG &bull; ENG.PHYSICS (50%)</text>
-  </g>
-
-  <!-- Right Geometric Cyber Pokéball Crest -->
-  <g transform="translate(755, 150)" opacity="0.32">
-    <circle cx="0" cy="0" r="105" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="10 6" />
-    <circle cx="0" cy="0" r="92" fill="none" stroke="#ec4899" stroke-width="1.8" />
-    <!-- Upper Dome (Neon Magenta / Orange) -->
-    <path d="M -92 0 A 92 92 0 0 1 92 0 Z" fill="#ec4899" fill-opacity="0.22" />
-    <!-- Lower Dome (Neon Cyan) -->
-    <path d="M -92 0 A 92 92 0 0 0 92 0 Z" fill="#00f2fe" fill-opacity="0.12" />
-    <line x1="-105" y1="0" x2="-28" y2="0" stroke="#00f2fe" stroke-width="4.5" />
-    <line x1="28" y1="0" x2="105" y2="0" stroke="#f97316" stroke-width="4.5" />
-    <circle cx="0" cy="0" r="28" fill="#0a0e1a" stroke="#ffffff" stroke-width="3" />
-    <circle cx="0" cy="0" r="14" fill="#0a0e1a" stroke="#38bdf8" stroke-width="2.5" />
-    <circle cx="0" cy="0" r="6" fill="#f97316" />
+    <circle cx="5" cy="5" r="4" fill="#10b981" />
+    <text x="18" y="9" class="status-badge">Available for Software &amp; Automation Projects</text>
   </g>
 
   <!-- Main Content -->
-  <text x="45" y="100" class="title-name">Diego Ovalle</text>
-  <text x="45" y="130" class="title-role">Technology &amp; Automation Developer</text>
+  <text x="45" y="90" class="title-name">Diego Ovalle</text>
+  <text x="45" y="118" class="title-role">Technology &amp; Automation Developer</text>
 
-  <!-- Dual Engineering Pill with Gradient Background -->
-  <g transform="translate(45, 146)">
-    <rect width="530" height="26" rx="6" fill="#182238" stroke="#38bdf8" stroke-width="1" />
-    <circle cx="14" cy="13" r="4.5" fill="#38bdf8" />
-    <circle cx="30" cy="13" r="4.5" fill="#ec4899" />
-    <text x="46" y="17.5" class="academic-pill">Computer Science Engineering &bull; Engineering Physics (50%)</text>
+  <!-- Academic Pill -->
+  <g transform="translate(45, 134)">
+    <rect width="470" height="26" rx="6" fill="#21262d" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="14" cy="13" r="3.5" fill="#38bdf8" />
+    <text x="26" y="17" class="academic-pill">Computer Science Engineering &bull; Engineering Physics (50%)</text>
   </g>
 
   <!-- Tagline -->
-  <text x="45" y="202" class="subtitle">"I use technology to solve real-world problems, automate workflows and continuously improve processes."</text>
+  <text x="45" y="188" class="subtitle">"I use technology to solve real-world problems, automate workflows and continuously improve processes."</text>
 
-  <!-- Vibrant Bottom Feature Pills -->
-  <g transform="translate(45, 226)">
-    <!-- Pill 1: Problem Solving (Electric Blue / Cyan) -->
-    <g transform="translate(0, 0)">
-      <rect width="165" height="30" rx="7" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" />
-      <circle cx="16" cy="15" r="4" fill="#38bdf8" />
-      <text x="30" y="19.5" class="tag-text">Problem Solver</text>
+  <!-- Clean Bottom Tags -->
+  <g transform="translate(45, 214)">
+    <!-- Pill 1 -->
+    <rect width="140" height="28" rx="6" fill="#161b22" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="14" cy="14" r="3" fill="#38bdf8" />
+    <text x="26" y="18" class="pill-label">Problem Solver</text>
+
+    <!-- Pill 2 -->
+    <g transform="translate(152, 0)">
+      <rect width="160" height="28" rx="6" fill="#161b22" stroke="#f97316" stroke-width="1" />
+      <circle cx="14" cy="14" r="3" fill="#f97316" />
+      <text x="26" y="18" class="pill-label">Process Automation</text>
     </g>
 
-    <!-- Pill 2: Process Automation (Sunset Orange) -->
-    <g transform="translate(177, 0)">
-      <rect width="185" height="30" rx="7" fill="#7c2d12" stroke="#f97316" stroke-width="1.5" />
-      <circle cx="16" cy="15" r="4" fill="#f97316" />
-      <text x="30" y="19.5" class="tag-text">Process Automation</text>
+    <!-- Pill 3 -->
+    <g transform="translate(324, 0)">
+      <rect width="170" height="28" rx="6" fill="#161b22" stroke="#10b981" stroke-width="1" />
+      <circle cx="14" cy="14" r="3" fill="#10b981" />
+      <text x="26" y="18" class="pill-label">Lean Six Sigma &amp; QA</text>
     </g>
 
-    <!-- Pill 3: Lean Six Sigma (Emerald Green) -->
-    <g transform="translate(374, 0)">
-      <rect width="195" height="30" rx="7" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
-      <circle cx="16" cy="15" r="4" fill="#10b981" />
-      <text x="30" y="19.5" class="tag-text">Continuous Imprv.</text>
-    </g>
-
-    <!-- Pill 4: Applied Physics & SDR (Laser Violet) -->
-    <g transform="translate(581, 0)">
-      <rect width="180" height="30" rx="7" fill="#581c87" stroke="#c084fc" stroke-width="1.5" />
-      <circle cx="16" cy="15" r="4" fill="#c084fc" />
-      <text x="30" y="19.5" class="tag-text">Applied Physics / SDR</text>
+    <!-- Pill 4 -->
+    <g transform="translate(506, 0)">
+      <rect width="165" height="28" rx="6" fill="#161b22" stroke="#c084fc" stroke-width="1" />
+      <circle cx="14" cy="14" r="3" fill="#c084fc" />
+      <text x="26" y="18" class="pill-label">Applied Physics &amp; SDR</text>
     </g>
   </g>
-
-  <!-- Radiant Bottom Line -->
-  <line x1="45" y1="284" x2="905" y2="284" stroke="url(#vibrantBorder)" stroke-width="2.5" stroke-linecap="round" />
 </svg>
