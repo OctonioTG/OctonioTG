@@ -1,92 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="100%" height="100%">
-  <defs>
-    <linearGradient id="cardScBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#041d2d" />
-      <stop offset="40%" stop-color="#0a1528" />
-      <stop offset="100%" stop-color="#070a12" />
-    </linearGradient>
-
-    <!-- Holo Border Water/Electric -->
-    <linearGradient id="holoSc" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="35%" stop-color="#38bdf8" />
-      <stop offset="70%" stop-color="#facc15" />
-      <stop offset="100%" stop-color="#818cf8" />
-    </linearGradient>
-
-    <radialGradient id="glowSc" cx="85%" cy="20%" r="65%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25" />
-      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-  </defs>
-
   <style>
     .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
     .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #38bdf8; letter-spacing: 1px; }
-    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 900; fill: #ffffff; letter-spacing: -0.3px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
     .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #38bdf8; }
-    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #cbd5e1; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
     .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #38bdf8; letter-spacing: 1.2px; }
-    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #bae6fd; font-weight: 500; }
-    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 800; fill: #ffffff; }
+    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #cbd5e1; font-weight: 500; }
+    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #ffffff; }
   </style>
 
-  <rect width="480" height="270" rx="16" fill="url(#cardScBg)" stroke="#30363d" stroke-width="1.2" />
-  <rect width="480" height="270" rx="16" fill="url(#glowSc)" />
-  <rect x="2" y="2" width="476" height="266" rx="14" fill="none" stroke="url(#holoSc)" stroke-width="2" />
+  <rect width="480" height="270" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <rect x="0" y="0" width="480" height="4" rx="2" fill="#38bdf8" />
 
-  <!-- Cyber Pokeball Watermark -->
-  <g transform="translate(400, 75)" opacity="0.12">
-    <circle cx="0" cy="0" r="55" fill="none" stroke="#00f2fe" stroke-width="3" />
-    <path d="M -55 0 A 55 55 0 0 1 55 0 Z" fill="#00f2fe" />
-    <line x1="-55" y1="0" x2="55" y2="0" stroke="#ffffff" stroke-width="3" />
-    <circle cx="0" cy="0" r="16" fill="#0a1528" stroke="#ffffff" stroke-width="3" />
-    <circle cx="0" cy="0" r="7" fill="#00f2fe" />
-  </g>
-
-  <!-- Top Bar: Type Pill & Dex ID -->
-  <g transform="translate(22, 18)">
-    <rect width="145" height="22" rx="11" fill="#0369a1" stroke="#00f2fe" stroke-width="1.2" />
-    <circle cx="11" cy="11" r="4" fill="#38bdf8" />
+  <g transform="translate(22, 20)">
+    <rect width="145" height="22" rx="6" fill="#0369a1" />
+    <circle cx="11" cy="11" r="3.5" fill="#bae6fd" />
     <text x="22" y="14.5" class="type-pill">WATER / ELECTRIC</text>
 
     <text x="436" y="15" text-anchor="end" class="dex-num">DEX // #002 &#8226; UI PLATFORM</text>
   </g>
 
-  <text x="22" y="68" class="card-title">SECTEI Builder</text>
-  <text x="22" y="87" class="card-role">Modular Component Engine &#8226; Visual Layout Platform</text>
+  <text x="22" y="70" class="card-title">SECTEI Builder</text>
+  <text x="22" y="90" class="card-role">Modular Component Engine &#8226; Visual Layout Platform</text>
 
-  <line x1="22" y1="98" x2="458" y2="98" stroke="#334155" stroke-width="1" />
-  <line x1="22" y1="98" x2="160" y2="98" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="22" y1="102" x2="458" y2="102" stroke="#21262d" stroke-width="1.5" />
 
-  <text x="22" y="120" class="card-desc">Visual web interface engine powered by reusable, atomic components</text>
-  <text x="22" y="138" class="card-desc">engineered to eliminate boilerplate and accelerate layout assembly.</text>
+  <text x="22" y="124" class="card-desc">Visual web interface engine powered by reusable, atomic components</text>
+  <text x="22" y="142" class="card-desc">engineered to eliminate boilerplate and accelerate layout assembly.</text>
 
-  <!-- Ability Box -->
-  <g transform="translate(22, 154)">
-    <rect width="436" height="42" rx="8" fill="#0c2d48" stroke="#0284c7" stroke-width="1.2" />
+  <g transform="translate(22, 158)">
+    <rect width="436" height="42" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
     <text x="14" y="16" class="ability-title">SPECIAL ABILITY // ATOMIC MODULARITY</text>
     <text x="14" y="32" class="ability-text">&#9658; 10x faster layout prototyping with enforced design systems</text>
   </g>
 
-  <!-- Bottom Badges -->
-  <g transform="translate(22, 218)">
-    <rect width="72" height="24" rx="6" fill="#0369a1" stroke="#38bdf8" stroke-width="1.2" />
+  <g transform="translate(22, 222)">
+    <rect width="72" height="24" rx="6" fill="#0369a1" />
     <text x="13" y="16" class="tag-label">REACT</text>
 
     <g transform="translate(80, 0)">
-      <rect width="80" height="24" rx="6" fill="#312e81" stroke="#818cf8" stroke-width="1.2" />
+      <rect width="80" height="24" rx="6" fill="#312e81" />
       <text x="12" y="16" class="tag-label">NEXT.JS</text>
     </g>
 
     <g transform="translate(168, 0)">
-      <rect width="88" height="24" rx="6" fill="#115e59" stroke="#2dd4bf" stroke-width="1.2" />
+      <rect width="88" height="24" rx="6" fill="#115e59" />
       <text x="11" y="16" class="tag-label">TAILWIND</text>
     </g>
 
     <g transform="translate(264, 0)">
-      <rect width="98" height="24" rx="6" fill="#713f12" stroke="#facc15" stroke-width="1.2" />
+      <rect width="98" height="24" rx="6" fill="#581c87" />
       <text x="11" y="16" class="tag-label">UI ENGINE</text>
     </g>
   </g>
