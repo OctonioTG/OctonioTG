@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="100%" height="100%">
+  <style>
+    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
+    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #38bdf8; letter-spacing: 1px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
+    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #38bdf8; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #38bdf8; letter-spacing: 1.2px; }
+    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #cbd5e1; font-weight: 500; }
+    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #ffffff; }
+  </style>
+
+  <!-- Solid Dark Card Base -->
+  <rect width="480" height="270" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Solid Top Accent Bar (Ford Blue) -->
+  <rect x="0" y="0" width="480" height="4" rx="2" fill="#0284c7" />
+
+  <!-- Top Bar: Type Pill & Dex ID -->
+  <g transform="translate(22, 20)">
+    <rect width="135" height="22" rx="6" fill="#0369a1" />
+    <circle cx="11" cy="11" r="3.5" fill="#bae6fd" />
+    <text x="22" y="14.5" class="type-pill">STEEL / ELECTRIC</text>
+
+    <text x="436" y="15" text-anchor="end" class="dex-num">DEX // #001 &#8226; 2ND PLACE UACH</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="22" y="70" class="card-title">Ford Kaizen &#8226; Engine Traceability</text>
+  <text x="22" y="90" class="card-role">Industrial Automation &#8226; Lean Manufacturing &amp; Kaizen 2024</text>
+
+  <!-- Solid Divider Line -->
+  <line x1="22" y1="102" x2="458" y2="102" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- Description -->
+  <text x="22" y="124" class="card-desc">Barcode tracking system using Zebra readers to capture engine data,</text>
+  <text x="22" y="142" class="card-desc">improve production line traceability, and optimize manufacturing flow.</text>
+
+  <!-- Pokédex Ability Box (Solid Background) -->
+  <g transform="translate(22, 158)">
+    <rect width="436" height="42" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="16" class="ability-title">SPECIAL ABILITY // TRACEABILITY PROTOCOL</text>
+    <text x="14" y="32" class="ability-text">&#9658; 2nd Place Ford Kaizen 2024 &#8226; Digital barcode data capture</text>
+  </g>
+
+  <!-- Bottom Solid Tags -->
+  <g transform="translate(22, 222)">
+    <rect width="98" height="24" rx="6" fill="#0369a1" />
+    <text x="11" y="16" class="tag-label">ZEBRA BARCODE</text>
+
+    <g transform="translate(106, 0)">
+      <rect width="82" height="24" rx="6" fill="#c2410c" />
+      <text x="14" y="16" class="tag-label">KAIZEN '24</text>
+    </g>
+
+    <g transform="translate(196, 0)">
+      <rect width="86" height="24" rx="6" fill="#854d0e" />
+      <text x="13" y="16" class="tag-label">LEAN MFG</text>
+    </g>
+
+    <g transform="translate(290, 0)">
+      <rect width="112" height="24" rx="6" fill="#047857" />
+      <text x="11" y="16" class="tag-label">PROCESS OPTIM</text>
+    </g>
+  </g>
+</svg>

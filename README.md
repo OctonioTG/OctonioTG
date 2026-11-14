@@ -108,7 +108,7 @@ Engineering tools and frameworks to eliminate operational friction and standardi
 
 <p align="center">
   <img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="70" /><br />
-  <sub><b>Selected engineering initiatives &bull; Pokédex Tech Entries</b></sub>
+  <sub><b>"I identify inefficiencies, understand real-world processes and develop technological solutions to improve operations through automation, traceability and continuous improvement."</b></sub>
 </p>
 
 <br />
@@ -116,18 +116,18 @@ Engineering tools and frameworks to eliminate operational friction and standardi
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/card-autozone.svg" alt="AutoZone Compliance Tools - Fire/Steel" width="100%" />
+      <img src="assets/card-ford.svg" alt="Ford Kaizen Traceability System" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="assets/card-sectei.svg" alt="SECTEI Builder - Water/Electric" width="100%" />
+      <img src="assets/card-autozone.svg" alt="AutoZone Compliance Hub" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/card-rfscanner.svg" alt="RF Scanner - Ghost/Electric" width="100%" />
+      <img src="assets/card-dairyqueen.svg" alt="Dairy Queen Branch Operations" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="assets/card-educaia.svg" alt="EducaIA - Psychic/Grass" width="100%" />
+      <img src="assets/card-fiscalia.svg" alt="Fiscalía Document Lifecycle &amp; Archive System" width="100%" />
     </td>
   </tr>
 </table>
@@ -194,8 +194,8 @@ Always open to discussing software projects, workflow automation, or problem-sol
   <a href="mailto:diego.devworks@gmail.com">
     <img src="https://img.shields.io/badge/Email-diego.devworks%40gmail.com-ea4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/diegoovalle">
-    <img src="https://img.shields.io/badge/LinkedIn-Diego_Ovalle-0a66c2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/jassiel-ovalle/">
+    <img src="https://img.shields.io/badge/LinkedIn-Jassiel_Ovalle-0a66c2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://www.diegoovalle.dev">
     <img src="https://img.shields.io/badge/Portfolio-diegoovalle.dev-10b981?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio" />
