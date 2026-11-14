@@ -20,11 +20,11 @@
 
 <!-- Quick Navigation -->
 <p align="center">
-  <a href="#about-me"><img src="https://img.shields.io/badge/About_Me-00b4d8?style=for-the-badge&logoColor=white" alt="About Me"></a>
-  <a href="#tech-stack--methodologies"><img src="https://img.shields.io/badge/Tech_Stack-f97316?style=for-the-badge&logoColor=white" alt="Tech Stack"></a>
-  <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-f43f5e?style=for-the-badge&logoColor=white" alt="Projects"></a>
-  <a href="#education--background"><img src="https://img.shields.io/badge/Education-8b5cf6?style=for-the-badge&logoColor=white" alt="Education"></a>
-  <a href="#get-in-touch"><img src="https://img.shields.io/badge/Contact-10b981?style=for-the-badge&logoColor=white" alt="Contact"></a>
+  <a href="#about-me"><img src="https://img.shields.io/badge/About_Me-00b4d8?style=for-the-badge&amp;logoColor=white" alt="About Me"></a>
+  <a href="#tech-stack--methodologies"><img src="https://img.shields.io/badge/Tech_Stack-f97316?style=for-the-badge&amp;logoColor=white" alt="Tech Stack"></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-f43f5e?style=for-the-badge&amp;logoColor=white" alt="Projects"></a>
+  <a href="#education--background"><img src="https://img.shields.io/badge/Education-8b5cf6?style=for-the-badge&amp;logoColor=white" alt="Education"></a>
+  <a href="#get-in-touch"><img src="https://img.shields.io/badge/Contact-10b981?style=for-the-badge&amp;logoColor=white" alt="Contact"></a>
 </p>
 
 <p align="center">
@@ -40,13 +40,11 @@
   </p>
 </div>
 
-<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="85" />
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="80" />
 
-Hey! I'm **Diego Ovalle**, a Computer Science Engineering student with an applied background in **Engineering Physics** (completed 50% of the program).
-
-I build software that solves real operational bottlenecks—connecting full-stack web development with process automation, data analysis, and Lean Six Sigma continuous improvement.
-
-> *"Understand the root problem, analyze the process, build the solution, and continuously optimize it."*
+<p align="center">
+  <img src="assets/card-about.svg" alt="About Me Summary Card" width="100%" />
+</p>
 
 <br />
 
@@ -67,10 +65,7 @@ I build software that solves real operational bottlenecks—connecting full-stac
   </p>
 </div>
 
-<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="90" />
-
-### Software &amp; Tools
-Languages and frameworks I use for production apps, dashboards, and internal tooling:
+<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="85" />
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -78,19 +73,16 @@ Languages and frameworks I use for production apps, dashboards, and internal too
   </a>
 </p>
 
-- **Core Languages:** Python, JavaScript (ES6+), SQL, HTML5, CSS3
-- **Frontend &amp; UI:** React, Next.js, Tailwind CSS, Responsive Design
-- **Backend &amp; Data:** Django, RESTful APIs, PostgreSQL, MySQL, MongoDB
-
-### Automation &amp; Continuous Improvement
-Engineering tools and frameworks to eliminate operational friction and standardize quality:
+<p align="center">
+  <img src="assets/card-skills.svg" alt="Core Technologies Overview" width="100%" />
+</p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC-00f2fe?style=for-the-badge&logoColor=white" alt="Lean Six Sigma" />
-  <img src="https://img.shields.io/badge/Kaizen-Continuous_Improvement-ff7a00?style=for-the-badge&logoColor=white" alt="Kaizen" />
-  <img src="https://img.shields.io/badge/Root_Cause-Ishikawa_%2F_5_Whys-ec4899?style=for-the-badge&logoColor=white" alt="RCA" />
-  <img src="https://img.shields.io/badge/Process_Mapping-BPMN-8b5cf6?style=for-the-badge&logoColor=white" alt="Process Mapping" />
-  <img src="https://img.shields.io/badge/Power_Apps-Automation-742774?style=for-the-badge&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
+  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC-00f2fe?style=for-the-badge&amp;logoColor=white" alt="Lean Six Sigma" />
+  <img src="https://img.shields.io/badge/Kaizen-Continuous_Improvement-ff7a00?style=for-the-badge&amp;logoColor=white" alt="Kaizen" />
+  <img src="https://img.shields.io/badge/Root_Cause-Ishikawa_%2F_5_Whys-ec4899?style=for-the-badge&amp;logoColor=white" alt="RCA" />
+  <img src="https://img.shields.io/badge/Process_Mapping-BPMN-8b5cf6?style=for-the-badge&amp;logoColor=white" alt="Process Mapping" />
+  <img src="https://img.shields.io/badge/Power_Apps-Automation-742774?style=for-the-badge&amp;logo=microsoftpowerapps&amp;logoColor=white" alt="Power Apps" />
 </p>
 
 <p align="center">
@@ -147,9 +139,9 @@ Engineering tools and frameworks to eliminate operational friction and standardi
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="85" />
 
-- **Computer Science Engineering:** Algorithms, software architecture, databases, distributed systems, web development.
-- **Engineering Physics (50% Completed):** Electromagnetism, signal processing (SDR), mathematical modeling, wave theory.
-- **Operational Excellence &amp; Quality:** Lean Six Sigma principles, Kaizen mindset, 5S workplace standardization, internal audit workflows.
+<p align="center">
+  <img src="assets/card-education.svg" alt="Education &amp; Academic Background" width="100%" />
+</p>
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />

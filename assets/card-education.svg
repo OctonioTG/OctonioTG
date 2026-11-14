@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="100%">
+  <style>
+    .item-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 700; fill: #ffffff; }
+    .item-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
+    .pill-tag { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #ffffff; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="160" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Left Accent Bar -->
+  <rect x="0" y="0" width="6" height="160" rx="3" fill="#c084fc" />
+
+  <!-- Item 1: CS Engineering -->
+  <g transform="translate(28, 20)">
+    <rect width="70" height="20" rx="4" fill="#0369a1" />
+    <text x="8" y="14" class="pill-tag">CS ENG</text>
+    <text x="82" y="14" class="item-title">Computer Science Engineering</text>
+    <text x="82" y="30" class="item-desc">Algorithms, software architecture, databases, distributed systems, and web platforms.</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="28" y1="62" x2="822" y2="62" stroke="#21262d" stroke-width="1" />
+
+  <!-- Item 2: Engineering Physics -->
+  <g transform="translate(28, 70)">
+    <rect width="92" height="20" rx="4" fill="#6b21a8" />
+    <text x="8" y="14" class="pill-tag">ENG PHYSICS</text>
+    <text x="104" y="14" class="item-title">Engineering Physics (50% Completed)</text>
+    <text x="104" y="30" class="item-desc">Electromagnetism, signal processing (SDR), mathematical modeling, and physical systems.</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="28" y1="112" x2="822" y2="112" stroke="#21262d" stroke-width="1" />
+
+  <!-- Item 3: Lean Six Sigma -->
+  <g transform="translate(28, 120)">
+    <rect width="80" height="20" rx="4" fill="#047857" />
+    <text x="8" y="14" class="pill-tag">SIX SIGMA</text>
+    <text x="92" y="14" class="item-title">Operational Excellence &amp; Quality</text>
+    <text x="92" y="30" class="item-desc">Lean Six Sigma principles, Kaizen mindset, 5S standardization, and internal audit workflows.</text>
+  </g>
+</svg>

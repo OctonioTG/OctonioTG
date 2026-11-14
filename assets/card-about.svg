@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="100%">
+  <style>
+    .headline { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; font-weight: 700; fill: #38bdf8; }
+    .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #cbd5e1; }
+    .quote-box { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-style: italic; fill: #fef08a; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="160" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Left Accent Bar -->
+  <rect x="0" y="0" width="6" height="160" rx="3" fill="#38bdf8" />
+
+  <!-- Headline -->
+  <text x="28" y="32" class="headline">Diego Ovalle &#8226; Programmer Student Trainee @ AutoZone</text>
+
+  <!-- Body Text -->
+  <text x="28" y="58" class="body-text">Computer Science Engineering student with an applied background in Engineering Physics (50% completed).</text>
+  <text x="28" y="78" class="body-text">I build software that solves real operational bottlenecks—connecting full-stack web development with process</text>
+  <text x="28" y="98" class="body-text">automation, data analysis, and Lean Six Sigma continuous improvement.</text>
+
+  <!-- Quote Box at Bottom -->
+  <g transform="translate(28, 114)">
+    <rect width="794" height="30" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="19" class="quote-box">"Understand the root problem, analyze the process, build the solution, and continuously optimize it."</text>
+  </g>
+</svg>
