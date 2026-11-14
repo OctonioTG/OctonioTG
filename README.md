@@ -5,7 +5,7 @@
   <img src="assets/banner.svg" alt="Diego Ovalle - Technology & Automation Developer" width="100%" />
 </p>
 
-<!-- Squad Lineup -->
+<!-- Top Squad Lineup -->
 <p align="center">
   <a href="#about-me" title="Lucario: Focus & Analytical Problem Solving"><img src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -18,11 +18,13 @@
   <a href="#featured-projects" title="Greninja: Agile SDR Signal Analysis"><img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="62" /></a>
 </p>
 
+<!-- Radiant Multi-Color Quick Navigation -->
 <p align="center">
-  <a href="#about-me"><img src="https://img.shields.io/badge/FOCUS-Automation_%26_Problem_Solving-0284c7?style=for-the-badge&logoColor=white" alt="Focus"></a>
+  <a href="#about-me"><img src="https://img.shields.io/badge/FOCUS-Automation_%26_Problem_Solving-00b4d8?style=for-the-badge&logoColor=white" alt="Focus"></a>
   <a href="#areas-of-expertise"><img src="https://img.shields.io/badge/STACK-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
-  <a href="#continuous-learning"><img src="https://img.shields.io/badge/METHODOLOGY-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
-  <a href="#featured-projects"><img src="https://img.shields.io/badge/PROJECTS-Real--World_Solutions-ea580c?style=for-the-badge&logoColor=white" alt="Projects"></a>
+  <a href="#continuous-learning"><img src="https://img.shields.io/badge/METHODOLOGY-Lean_Six_Sigma_%7C_Kaizen-10b981?style=for-the-badge&logoColor=white" alt="Methodology"></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/PROJECTS-Real--World_Solutions-ec4899?style=for-the-badge&logoColor=white" alt="Projects"></a>
+  <a href="#continuous-learning"><img src="https://img.shields.io/badge/ACADEMICS-CS_%2B_Physics_50%25-8b5cf6?style=for-the-badge&logoColor=white" alt="Academics"></a>
 </p>
 
 <p align="center">
@@ -94,11 +96,12 @@ Applying structured methodologies to eliminate operational waste and optimize wo
 - **Workflow Automation:** Power Apps, custom automation scripts, internal task pipelines.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC_Cycle-38bdf8?style=flat-square" alt="Lean Six Sigma" />
-  <img src="https://img.shields.io/badge/Methodology-Kaizen-f97316?style=flat-square" alt="Kaizen" />
-  <img src="https://img.shields.io/badge/Diagnostics-Ishikawa_%2F_5_Whys-0284c7?style=flat-square" alt="RCA" />
-  <img src="https://img.shields.io/badge/Process_Mapping-BPMN_Flows-ea580c?style=flat-square" alt="Process Mapping" />
-  <img src="https://img.shields.io/badge/Automation-Power_Apps-742774?style=flat-square&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
+  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC_Cycle-00f2fe?style=for-the-badge&logoColor=white" alt="Lean Six Sigma" />
+  <img src="https://img.shields.io/badge/Methodology-Kaizen-ff7a00?style=for-the-badge&logoColor=white" alt="Kaizen" />
+  <img src="https://img.shields.io/badge/Diagnostics-Ishikawa_%2F_5_Whys-ec4899?style=for-the-badge&logoColor=white" alt="RCA" />
+  <img src="https://img.shields.io/badge/Process_Mapping-BPMN_Flows-8b5cf6?style=for-the-badge&logoColor=white" alt="Process Mapping" />
+  <img src="https://img.shields.io/badge/Automation-Power_Apps-742774?style=for-the-badge&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
+  <img src="https://img.shields.io/badge/Quality_Assurance-Continuous_Improvement-10b981?style=for-the-badge&logoColor=white" alt="Quality" />
 </p>
 
 <br />
@@ -196,12 +199,12 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="85" />
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DiegoOvalle348795&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=f97316&border_color=30363d&hide_border=false" alt="Diego's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoOvalle348795&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&border_color=30363d&hide_border=false" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DiegoOvalle348795&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00f2fe&text_color=f1f5f9&icon_color=ec4899&border_color=818cf8&hide_border=false" alt="Diego's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoOvalle348795&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00f2fe&text_color=f1f5f9&border_color=818cf8&hide_border=false" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=DiegoOvalle348795&theme=tokyonight&background=0D1117&border=30363D&stroke=38BDF8&ring=F97316&fire=F97316&currStreakLabel=38BDF8&sideLabels=94A3B8" alt="GitHub Streak" width="97%" />
+  <img src="https://streak-stats.demolab.com/?user=DiegoOvalle348795&theme=tokyonight&background=0D1117&border=818CF8&stroke=00F2FE&ring=EC4899&fire=F97316&currStreakLabel=00F2FE&sideLabels=F1F5F9" alt="GitHub Streak" width="97%" />
 </p>
 
 <p align="center">
@@ -219,16 +222,16 @@ I am open to discussing software projects, process automation, or technical prob
 
 <p align="left">
   <a href="mailto:diego.devworks@gmail.com">
-    <img src="https://img.shields.io/badge/Email-diego.devworks%40gmail.com-0284c7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-diego.devworks%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/diegoovalle">
-    <img src="https://img.shields.io/badge/LinkedIn-Diego_Ovalle-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Diego_Ovalle-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://www.diegoovalle.dev">
-    <img src="https://img.shields.io/badge/Portfolio-diegoovalle.dev-f97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-diegoovalle.dev-10b981?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/DiegoOvalle348795">
-    <img src="https://img.shields.io/badge/GitHub-DiegoOvalle348795-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-DiegoOvalle348795-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 

@@ -1,37 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="100%" height="90">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 92" width="100%" height="92">
   <defs>
     <linearGradient id="pSecteiBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b101d" />
-      <stop offset="100%" stop-color="#080c14" />
+      <stop offset="0%" stop-color="#041f2e" />
+      <stop offset="50%" stop-color="#0c1529" />
+      <stop offset="100%" stop-color="#070a12" />
     </linearGradient>
     <linearGradient id="pSecteiBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="40%" stop-color="#0284c7" />
-      <stop offset="100%" stop-color="#1e293b" />
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="35%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
   </defs>
   <style>
-    .p-badge { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #38bdf8; letter-spacing: 1.5px; }
-    .p-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 19px; font-weight: 800; fill: #ffffff; }
-    .p-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #94a3b8; }
-    .p-tag { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; fill: #f97316; font-weight: 600; }
+    .p-badge { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #00f2fe; letter-spacing: 1.5px; }
+    .p-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 19.5px; font-weight: 800; fill: #ffffff; }
+    .p-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #cbd5e1; }
+    .p-tag { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #ffffff; }
   </style>
 
-  <rect width="900" height="90" rx="10" fill="url(#pSecteiBg)" stroke="#1e293b" stroke-width="1.2" />
-  <rect x="0" y="0" width="900" height="90" rx="10" fill="none" stroke="url(#pSecteiBorder)" stroke-width="1.5" stroke-dasharray="250 650" />
+  <rect width="900" height="92" rx="12" fill="url(#pSecteiBg)" stroke="#334155" stroke-width="1.2" />
+  <rect x="0" y="0" width="900" height="92" rx="12" fill="none" stroke="url(#pSecteiBorder)" stroke-width="2" stroke-dasharray="320 580" />
 
-  <path d="M 12 25 L 12 12 L 25 12" fill="none" stroke="#38bdf8" stroke-width="2" />
+  <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#00f2fe" stroke-width="2.5" />
   
-  <text x="32" y="24" class="p-badge">FRONTEND ARCHITECTURE // WEB PLATFORM</text>
-  <text x="32" y="49" class="p-title">SECTEI Builder &bull; Reusable UI Component Engine</text>
-  <text x="32" y="70" class="p-sub">Modular visual layout builder accelerating web interface prototyping and standardizing design systems.</text>
+  <text x="34" y="25" class="p-badge">FRONTEND ARCHITECTURE // WEB PLATFORM</text>
+  <text x="34" y="51" class="p-title">SECTEI Builder &bull; Reusable UI Component Engine</text>
+  <text x="34" y="73" class="p-sub">Modular visual layout builder accelerating web interface prototyping and standardizing design systems.</text>
 
-  <g transform="translate(635, 28)">
-    <rect width="70" height="22" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
-    <text x="14" y="15" class="p-tag">REACT</text>
-    <rect x="78" width="75" height="22" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
-    <text x="89" y="15" class="p-tag">NEXT.JS</text>
-    <rect x="161" width="80" height="22" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1" />
-    <text x="171" y="15" class="p-tag">TAILWIND</text>
+  <g transform="translate(630, 30)">
+    <rect width="70" height="24" rx="5" fill="#0369a1" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="14" y="16.5" class="p-tag">REACT</text>
+    <rect x="78" width="76" height="24" rx="5" fill="#4338ca" stroke="#818cf8" stroke-width="1.2" />
+    <text x="89" y="16.5" class="p-tag">NEXT.JS</text>
+    <rect x="162" width="85" height="24" rx="5" fill="#0f766e" stroke="#2dd4bf" stroke-width="1.2" />
+    <text x="171" y="16.5" class="p-tag">TAILWIND</text>
   </g>
 </svg>
