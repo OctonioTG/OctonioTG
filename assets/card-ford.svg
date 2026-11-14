@@ -1,58 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 185" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" width="100%" height="100%">
   <style>
-    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10.5px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
-    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; font-weight: 700; fill: #38bdf8; letter-spacing: 1px; }
-    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
-    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #38bdf8; }
-    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #cbd5e1; }
-    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #38bdf8; letter-spacing: 1px; }
-    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #f8fafc; font-weight: 500; }
-    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #ffffff; }
+    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 800; fill: #ffffff; letter-spacing: 0.8px; }
+    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #38bdf8; letter-spacing: 0.8px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 800; fill: #ffffff; letter-spacing: -0.2px; }
+    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #38bdf8; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #cbd5e1; }
+    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 8.5px; font-weight: 800; fill: #38bdf8; letter-spacing: 0.8px; }
+    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; fill: #f8fafc; font-weight: 500; }
+    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 8.5px; font-weight: 700; fill: #ffffff; }
   </style>
 
-  <rect width="850" height="185" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
-  <rect x="0" y="0" width="6" height="185" rx="3" fill="#0284c7" />
+  <!-- Card Base -->
+  <rect width="420" height="220" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <rect x="0" y="0" width="5" height="220" rx="2.5" fill="#0284c7" />
 
-  <!-- Top Line: Type & Dex -->
-  <g transform="translate(26, 18)">
-    <rect width="145" height="22" rx="6" fill="#0369a1" />
-    <circle cx="11" cy="11" r="3.5" fill="#bae6fd" />
-    <text x="22" y="14.5" class="type-pill">STEEL / ELECTRIC</text>
-    <text x="796" y="15" text-anchor="end" class="dex-num">DEX // #001 &#8226; 2ND PLACE UACH</text>
+  <!-- Top Line: Type Pill & Dex -->
+  <g transform="translate(16, 15)">
+    <rect width="130" height="20" rx="5" fill="#0369a1" />
+    <circle cx="10" cy="10" r="3" fill="#bae6fd" />
+    <text x="20" y="13.5" class="type-pill">STEEL / ELECTRIC</text>
+    <text x="388" y="13.5" text-anchor="end" class="dex-num">DEX // #001 &#8226; 2ND PLACE</text>
   </g>
 
   <!-- Title & Subtitle -->
-  <text x="26" y="66" class="card-title">Ford Kaizen &#8226; Engine Traceability System</text>
-  <text x="26" y="86" class="card-role">Industrial Automation &#8226; Lean Manufacturing &amp; Kaizen 2024</text>
+  <text x="16" y="58" class="card-title">Ford Kaizen &#8226; Traceability</text>
+  <text x="16" y="75" class="card-role">Industrial Automation &#8226; Lean Manufacturing</text>
 
-  <!-- Description -->
-  <text x="26" y="112" class="card-desc">Barcode tracking system using Zebra readers to capture engine data, improve production line traceability, and optimize manufacturing flow.</text>
+  <!-- Divider -->
+  <line x1="16" y1="86" x2="404" y2="86" stroke="#21262d" stroke-width="1" />
 
-  <!-- Ability & Tags Row -->
-  <g transform="translate(26, 132)">
-    <rect width="470" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-    <text x="12" y="14" class="ability-title">SPECIAL ABILITY // TRACEABILITY PROTOCOL</text>
-    <text x="12" y="28" class="ability-text">&#9658; 2nd Place Ford Kaizen 2024 &#8226; Digital barcode data capture</text>
+  <!-- Description (2 Lines) -->
+  <text x="16" y="104" class="card-desc">Barcode tracking system using Zebra readers to capture</text>
+  <text x="16" y="120" class="card-desc">engine data and optimize production line flow.</text>
 
-    <!-- Tags Right -->
-    <g transform="translate(485, 6)">
-      <rect width="90" height="24" rx="5" fill="#0369a1" />
-      <text x="8" y="16" class="tag-label">ZEBRA READ</text>
+  <!-- Special Ability Box -->
+  <g transform="translate(16, 134)">
+    <rect width="388" height="38" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="10" y="14" class="ability-title">SPECIAL ABILITY // TRACEABILITY PROTOCOL</text>
+    <text x="10" y="28" class="ability-text">&#9658; 2nd Place Ford Kaizen 2024 &#8226; Digital barcode data capture</text>
+  </g>
 
-      <g transform="translate(96, 0)">
-        <rect width="78" height="24" rx="5" fill="#c2410c" />
-        <text x="10" y="16" class="tag-label">KAIZEN '24</text>
-      </g>
+  <!-- Tags Row -->
+  <g transform="translate(16, 184)">
+    <rect width="80" height="22" rx="4" fill="#0369a1" />
+    <text x="8" y="15" class="tag-label">ZEBRA READ</text>
 
-      <g transform="translate(180, 0)">
-        <rect width="78" height="24" rx="5" fill="#854d0e" />
-        <text x="10" y="16" class="tag-label">LEAN MFG</text>
-      </g>
+    <g transform="translate(86, 0)">
+      <rect width="76" height="22" rx="4" fill="#c2410c" />
+      <text x="8" y="15" class="tag-label">KAIZEN '24</text>
+    </g>
 
-      <g transform="translate(264, 0)">
-        <rect width="52" height="24" rx="5" fill="#047857" />
-        <text x="11" y="16" class="tag-label">UACH</text>
-      </g>
+    <g transform="translate(168, 0)">
+      <rect width="72" height="22" rx="4" fill="#854d0e" />
+      <text x="9" y="15" class="tag-label">LEAN MFG</text>
+    </g>
+
+    <g transform="translate(246, 0)">
+      <rect width="52" height="22" rx="4" fill="#047857" />
+      <text x="10" y="15" class="tag-label">UACH</text>
     </g>
   </g>
 </svg>
