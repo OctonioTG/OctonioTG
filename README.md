@@ -5,42 +5,128 @@
   <img src="assets/banner.svg" alt="Diego Ovalle - Technology & Automation Developer" width="100%" />
 </p>
 
+<!-- 8-Bit Pokémon Engineering Squad Lineup -->
 <p align="center">
-  <a href="#-about-me"><img src="https://img.shields.io/badge/Focus-Automation_%26_Problem_Solving-0284c7?style=for-the-badge&logoColor=white" alt="Focus"></a>
-  <a href="#-development--technology"><img src="https://img.shields.io/badge/Stack-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
-  <a href="#-automation--continuous-improvement"><img src="https://img.shields.io/badge/Methodology-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
-  <a href="#-featured-projects"><img src="https://img.shields.io/badge/Projects-Real--World_Solutions-ea580c?style=for-the-badge&logoColor=white" alt="Projects"></a>
+  <a title="Lucario: Problem Solving & Lean Six Sigma" href="#engineering-archetypes">
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lucario.gif" alt="Lucario" height="60" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a title="Aegislash: Quality Compliance & Dual-Discipline (CS + Physics)" href="#engineering-archetypes">
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/aegislash.gif" alt="Aegislash" height="60" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a title="Golurk: Heavy Systems & Process Automation" href="#engineering-archetypes">
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/golurk.gif" alt="Golurk" height="65" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a title="Ceruledge: High-Speed Full-Stack Delivery" href="#engineering-archetypes">
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/ceruledge.gif" alt="Ceruledge" height="60" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a title="Greninja: Agile SDR Signal Analysis & Prototyping" href="#engineering-archetypes">
+    <img src="https://play.pokemonshowdown.com/sprites/gen5ani/greninja.gif" alt="Greninja" height="55" />
+  </a>
 </p>
 
----
+<p align="center">
+  <a href="#about-me"><img src="https://img.shields.io/badge/Focus-Automation_%26_Problem_Solving-0284c7?style=for-the-badge&logoColor=white" alt="Focus"></a>
+  <a href="#areas-of-expertise"><img src="https://img.shields.io/badge/Stack-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
+  <a href="#continuous-improvement--methodologies"><img src="https://img.shields.io/badge/Methodology-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-Real--World_Solutions-ea580c?style=for-the-badge&logoColor=white" alt="Projects"></a>
+</p>
 
-## 👤 About Me
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
 
-I am passionate about using technology to solve real-world problems, automate processes, and build practical solutions that make workflows reliable and efficient.
+## About Me
 
-My background bridges **software engineering**, **process automation**, **data analysis**, and **continuous improvement**. Rather than writing code in isolation, I enjoy understanding operational bottlenecks from the ground up, diagnosing root causes, and transforming friction into functional, scalable software and automated workflows.
+I am passionate about using technology to solve real-world problems, automate processes, and create practical solutions that make operations more efficient.
 
-> **Core Philosophy:**  
-> *"Understand the problem, analyze the process, build the solution, and continuously improve it."*
+My background uniquely bridges **software engineering**, **applied physics**, **process automation**, and **continuous improvement**. Along with my Computer Science Engineering studies, I have completed half of the **Engineering Physics** curriculum—providing me with strong foundations in mathematical modeling, signal processing, and physical systems diagnostics.
 
-```
-   ┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐
-   │    1. UNDERSTAND     │  ➔   │     2. ANALYZE       │  ➔   │      3. BUILD        │  ➔   │     4. IMPROVE       │
-   │  Root Cause Analysis │      │   Process Mapping    │      │ Full-Stack & Tooling │      │  Kaizen & Continuous │
-   │   5 Whys & Ishikawa  │      │  Bottleneck Removal  │      │  Workflow Automation │      │    Standardization   │
-   └──────────────────────┘      └──────────────────────┘      └──────────────────────┘      └──────────────────────┘
-```
+Rather than developing software in isolation, I focus on understanding operations from the ground up: identifying bottlenecks, applying root cause analysis, and engineering scalable solutions that eliminate friction.
 
-- 🎓 **Education:** Computer Science Engineering Student
-- 💼 **Focus Areas:** Operational Tooling, Workflow Automation, Supply Chain Compliance, Full-Stack Architecture
-- 🎯 **Current Drive:** Designing resilient systems that connect operational teams with real-time data and automated tooling
+> **Core Narrative:**  
+> *"I use technology to solve real-world problems, automate workflows and continuously improve processes."*
 
----
+<p align="center">
+  <img src="assets/workflow.svg" alt="Engineering & Problem Solving Workflow" width="100%" />
+</p>
 
-## 🛠️ Areas of Expertise
+- **Dual Academic Foundation:** Computer Science Engineering &bull; Engineering Physics (50% Completed)
+- **Primary Specialization:** Process Automation, Operational Tooling, Root Cause Analysis, Full-Stack Development
+- **Engineering Philosophy:** Understand the problem, analyze the process, build the solution, and continuously improve it.
 
-### 💻 Development & Technology
-Tools and languages I use to build robust applications, internal dashboards, and reliable services:
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
+
+<h2 id="engineering-archetypes">Tactical Squad &bull; Engineering Archetypes</h2>
+
+To balance rigorous analytical problem-solving with software execution, I channel specific operational mindsets:
+
+<table>
+  <thead>
+    <tr align="center">
+      <th width="15%">Unit</th>
+      <th width="20%">Designation</th>
+      <th width="30%">Specialization</th>
+      <th width="35%">Operational Focus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/golurk.gif" alt="Golurk" width="55" />
+      </td>
+      <td><b>Golurk</b><br /><code>Ground / Ghost</code></td>
+      <td><b>Heavy Systems &amp; Automation</b></td>
+      <td>Autonomous background jobs, workflow pipelines, and hardware integration. Silent, resilient system stability.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/aegislash.gif" alt="Aegislash" width="55" />
+      </td>
+      <td><b>Aegislash</b><br /><code>Steel / Ghost</code></td>
+      <td><b>Quality &amp; Dual Stance</b></td>
+      <td>Switches between analytical defense (auditing, compliance, physical engineering rigor) and offensive software delivery.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/lucario.gif" alt="Lucario" width="55" />
+      </td>
+      <td><b>Lucario</b><br /><code>Fighting / Steel</code></td>
+      <td><b>Problem Solving &amp; Lean</b></td>
+      <td>Sensing bottlenecks through data. Disciplined application of Lean Six Sigma, Kaizen, and Root Cause Analysis.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/ceruledge.gif" alt="Ceruledge" width="55" />
+      </td>
+      <td><b>Ceruledge</b><br /><code>Fire / Ghost</code></td>
+      <td><b>Modern Full-Stack Execution</b></td>
+      <td>Dual-blade delivery cutting through UI/UX complexity with React, Next.js, and scalable Django backends.</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://play.pokemonshowdown.com/sprites/gen5ani/greninja.gif" alt="Greninja" width="55" />
+      </td>
+      <td><b>Greninja</b><br /><code>Water / Dark</code></td>
+      <td><b>Agile SDR &amp; Signal Analysis</b></td>
+      <td>Software-Defined Radio signal processing, rapid prototyping, and adapting to dynamic frequency environments.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
+
+<h2 id="areas-of-expertise">Areas of Expertise</h2>
+
+### Development & Technology
+Tools and languages used to build web applications, internal dashboards, and data-driven systems:
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -48,86 +134,96 @@ Tools and languages I use to build robust applications, internal dashboards, and
   </a>
 </p>
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | Python, JavaScript (ES6+), SQL, HTML5, CSS3 |
-| **Frontend** | React, Next.js, Tailwind CSS, Responsive UI Design |
-| **Backend & APIs** | Django, REST APIs, Microservices Architecture |
-| **Databases** | PostgreSQL, MySQL, MongoDB |
-| **Version Control & DevOps** | Git, GitHub, CI/CD Basics, Environment Management |
+- **Programming Languages:** Python, JavaScript (ES6+), SQL, HTML5, CSS3
+- **Frontend Development:** React, Next.js, Tailwind CSS, Responsive Design, State Management
+- **Backend & APIs:** Django, RESTful APIs, Service Architecture
+- **Databases:** PostgreSQL, MySQL, MongoDB
+- **Version Control & Tooling:** Git, GitHub, Linux Environments, VS Code
 
 <br />
 
-### ⚙️ Automation & Continuous Improvement
-Engineering is not just about building features—it is about optimizing how systems run:
+### Automation & Continuous Improvement
+Applying structured methodologies to eliminate operational waste and optimize workflows:
 
-- **Methodologies & Analysis:** Lean Six Sigma principles, Kaizen mindset, Root Cause Analysis (RCA), Ishikawa (Fishbone) Diagrams, 5 Whys.
-- **Process Optimization:** Process Mapping (BPMN / Swimlane flows), Bottleneck Identification, Standard Operating Procedures (SOP).
-- **Workflow Automation:** Power Apps, Automated reporting scripts, Data parsing, Operational tooling.
+- **Lean Six Sigma & Kaizen:** DMAIC process cycle, continuous improvement routines, 5S workplace standardization.
+- **Root Cause Analysis (RCA):** Ishikawa (Fishbone) diagrams, 5 Whys diagnostics, failure mode identification.
+- **Process Mapping & Optimization:** Flowcharts, swimlane diagrams, bottleneck elimination, Standard Operating Procedures (SOPs).
+- **Workflow Automation:** Power Apps, custom automation scripts, internal task pipelines.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC_Framework-38bdf8?style=flat-square&logo=target&logoColor=white" alt="Lean Six Sigma" />
-  <img src="https://img.shields.io/badge/Continuous_Improvement-Kaizen-f97316?style=flat-square" alt="Kaizen" />
-  <img src="https://img.shields.io/badge/Process_Mapping-Flow_Diagnostics-0284c7?style=flat-square" alt="Process Mapping" />
-  <img src="https://img.shields.io/badge/Root_Cause-Ishikawa_%2F_5_Whys-ea580c?style=flat-square" alt="RCA" />
-  <img src="https://img.shields.io/badge/Power_Apps-Workflow_Automation-742774?style=flat-square&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
+  <img src="https://img.shields.io/badge/Lean_Six_Sigma-DMAIC_Cycle-38bdf8?style=flat-square" alt="Lean Six Sigma" />
+  <img src="https://img.shields.io/badge/Methodology-Kaizen-f97316?style=flat-square" alt="Kaizen" />
+  <img src="https://img.shields.io/badge/Diagnostics-Ishikawa_%2F_5_Whys-0284c7?style=flat-square" alt="RCA" />
+  <img src="https://img.shields.io/badge/Process_Mapping-BPMN_Flows-ea580c?style=flat-square" alt="Process Mapping" />
+  <img src="https://img.shields.io/badge/Automation-Power_Apps-742774?style=flat-square&logo=microsoftpowerapps&logoColor=white" alt="Power Apps" />
 </p>
 
 <br />
 
-### 🛡️ Quality & Compliance
-Ensuring solutions meet operational standards, data integrity requirements, and regulatory auditability:
+### Quality, Compliance & Applied Physics
+Ensuring solutions meet technical standards, data integrity, and compliance requirements:
 
-- **Quality Assurance:** Process standardization, error-proofing (Poka-Yoke), functional validation.
-- **Auditing & Compliance:** Internal audit workflows, regulatory compliance tracking, discrepancy logging.
-- **Continuous Monitoring:** Post-implementation tracking to ensure sustained operational gains.
+- **Quality Assurance & Auditing:** Internal audit workflows, process standardization, error-proofing (Poka-Yoke).
+- **Global Compliance:** Incident tracking, regulatory discrepancy logging, operational alignment.
+- **Physical Engineering Principles:** Mathematical modeling, signal analysis, experimental validation, physical systems intuition.
 
----
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
 
-## 🚀 Featured Projects & Impact
+<h2 id="featured-projects">Featured Projects & Impact</h2>
 
-Here are key initiatives highlighting how I apply software development and process optimization to tangible challenges:
-
-### 🏢 [AutoZone — Supply Chain Global Compliance Tools](#)
+### AutoZone &bull; Supply Chain Global Compliance Tools
 *Internal automation and operational tooling for enterprise compliance workflows.*
-- **Challenge:** Operational teams managing global supply chain compliance faced fragmented manual verification processes and recurring incident bottlenecks.
-- **Solution:** Developed internal tools and automated workflows to track incidents, map operational flows, and streamline compliance validation for Supply Chain Global Compliance.
-- **Impact:** Reduced manual processing time, standardized incident response diagrams, and improved audit visibility.
-- **Stack / Focus:** `Python` • `Workflow Automation` • `Process Mapping` • `Global Compliance Auditing`
+- **Context & Problem:** Operational teams handling global supply chain compliance required centralized tracking for incidents and recurring validation bottlenecks.
+- **Engineering Solution:** Developed internal tools and automation scripts to track compliance incidents, map operational workflows, and streamline support procedures.
+- **Key Focus:** Python &bull; Process Mapping &bull; Workflow Automation &bull; Global Compliance Auditing
 
 ---
 
-### 🧩 [SECTEI Builder — Reusable Component Visual Platform](#)
-*Visual web interface builder built on a reusable, component-driven architecture.*
-- **Challenge:** Creating consistent web interfaces often requires repetitive boilerplate code and increases frontend friction.
-- **Solution:** Engineered a modular builder platform enabling users to assemble web layouts using standardized, customizable components.
-- **Impact:** Accelerates prototyping speed, enforces design consistency, and makes layout creation accessible.
-- **Stack / Focus:** `React` • `Next.js` • `JavaScript` • `Tailwind CSS` • `Modular UI Architecture`
-- <!-- Replace with real URL if public: [Repository](https://github.com/DiegoOvalle348795/sectei-builder) -->
+### SECTEI Builder &bull; Modular UI Component Platform
+*Visual web interface builder designed on a reusable component architecture.*
+- **Context & Problem:** Accelerating interface development while maintaining strict brand consistency and eliminating frontend boilerplate.
+- **Engineering Solution:** Created a visual platform using modular, reusable components allowing fast layout assembly and standardized design patterns.
+- **Key Focus:** React &bull; Next.js &bull; JavaScript &bull; Tailwind CSS &bull; Component Architecture
+- <!-- [Repository](https://github.com/DiegoOvalle348795/sectei-builder) -->
 
 ---
 
-### 📡 [RF Scanner — SDR Frequency Monitoring & Analysis](#)
-*Real-time radio frequency scanning, signal capture, and spectrum diagnostics system.*
-- **Challenge:** Inspecting and analyzing live radio frequency environments traditionally requires expensive proprietary hardware and complex desktop tooling.
-- **Solution:** Built an integrated software system utilizing Software-Defined Radio (SDR) hardware, a Python processing backend, and a modern React interface for real-time visualization.
-- **Impact:** Enables accessible spectrum analysis, signal identification, and automated frequency sweeps.
-- **Stack / Focus:** `Python` • `SDR` • `React` • `REST APIs` • `Signal Processing`
-- <!-- Replace with real URL if public: [Repository](https://github.com/DiegoOvalle348795/rf-scanner) -->
+### RF Scanner &bull; SDR Frequency Monitoring & Signal Analysis
+*Real-time radio frequency scanning, signal detection, and spectrum diagnostics system.*
+- **Context & Problem:** Bridging physical electromagnetism and software to provide an accessible interface for live radio frequency monitoring without expensive specialized lab hardware.
+- **Engineering Solution:** Combined Software-Defined Radio (SDR) hardware, a Python digital signal processing backend, and a responsive React frontend for live waterfall and spectrum visualization.
+- **Key Focus:** Applied Physics &bull; SDR &bull; Python &bull; React &bull; Signal Processing &bull; REST APIs
+- <!-- [Repository](https://github.com/DiegoOvalle348795/rf-scanner) -->
 
 ---
 
-### 🎓 [EducaIA — Educational Data Intelligence & AI Analytics](#)
-*Analytical system leveraging AI to uncover insights and improve educational outcomes.*
-- **Challenge:** Educational institutions frequently collect vast amounts of student performance data without actionable diagnostic mechanisms.
-- **Solution:** Designed data pipelines and analytical models to process educational indicators, flag at-risk areas, and provide actionable pedagogical recommendations.
-- **Impact:** Empowers educators with objective, data-backed insights to drive continuous improvement in academic programs.
-- **Stack / Focus:** `Python` • `Data Analysis` • `Machine Learning / AI` • `Predictive Metrics`
-- <!-- Replace with real URL if public: [Repository](https://github.com/DiegoOvalle348795/educa-ia) -->
+### EducaIA &bull; Educational Data Intelligence & AI Analytics
+*Analytical data platform applying machine learning to educational metrics.*
+- **Context & Problem:** Extracting actionable pedagogical insights from raw institutional student performance metrics.
+- **Engineering Solution:** Implemented data processing pipelines and predictive models to detect academic performance trends and assist educators in data-driven decision making.
+- **Key Focus:** Python &bull; Data Analysis &bull; Machine Learning &bull; Statistical Indicators
+- <!-- [Repository](https://github.com/DiegoOvalle348795/educa-ia) -->
 
----
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
 
-## 📊 GitHub Analytics
+## Continuous Improvement & Education
+
+| Academic & Technical Discipline | Focus & Competencies |
+| :--- | :--- |
+| **Computer Science Engineering** | Software architecture, algorithms, database systems, web engineering |
+| **Engineering Physics (50% Completed)** | Mathematical modeling, electromagnetism, signal processing, classical & modern physics |
+| **Operational Excellence** | Lean Six Sigma principles, Kaizen mindset, 5S methodology, process mapping |
+| **Quality & Auditing** | Root Cause Analysis (Ishikawa), Standard Operating Procedures (SOP), compliance monitoring |
+
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
+
+## GitHub Analytics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DiegoOvalle348795&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=f97316&border_color=30363d&hide_border=false" alt="Diego's GitHub Stats" width="48%" />
@@ -138,55 +234,13 @@ Here are key initiatives highlighting how I apply software development and proce
   <img src="https://streak-stats.demolab.com/?user=DiegoOvalle348795&theme=tokyonight&background=0D1117&border=30363D&stroke=38BDF8&ring=F97316&fire=F97316&currStreakLabel=38BDF8&sideLabels=94A3B8" alt="GitHub Streak" width="97%" />
 </p>
 
----
+<p align="center">
+  <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
+</p>
 
-## 📜 Continuous Learning & Methodologies
+## Connect & Collaborate
 
-```
-┌─────────────────────────────────┬─────────────────────────────────┬─────────────────────────────────┐
-│     OPERATIONAL EXCELLENCE      │      SOFTWARE ENGINEERING       │       QUALITY & AUDITING        │
-├─────────────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
-│ • Lean Six Sigma Principles     │ • Computer Science Degree (En)  │ • Process Standardization       │
-│ • Root Cause Analysis (Ishikawa)│ • Full-Stack Web Architecture   │ • Internal Compliance Audits    │
-│ • Kaizen Continuous Improvement │ • Modern API & Database Design  │ • Error-Proofing (Poka-Yoke)    │
-│ • 5S & Workflow Streamlining    │ • Clean Code & Modular Systems  │ • Standard Operating Procedures │
-└─────────────────────────────────┴─────────────────────────────────┴─────────────────────────────────┘
-```
-
----
-
-<details>
-  <summary>🎮 <b>Pokédex Terminal Entry // Developer Card</b> <i>(Click to expand)</i></summary>
-
-<br />
-
-```yaml
-# ========================================================
-# POKÉDEX DATA SPECIFICATION // TECH & AUTOMATION UNIT
-# ========================================================
-Species: Technology & Automation Engineer
-Type: Electric / Steel (Tech & Precision)
-Trainer Class: Problem Solver
-ID: DEV-0479 (Rotom-Wash form factor: Infiltrating & optimizing every appliance/system)
-
-Base Stats:
-  - Problem Solving:        ████████████████████ [99/100]
-  - Process Optimization:   ██████████████████░░ [92/100]
-  - Software Architecture:  █████████████████░░░ [88/100]
-  - Continuous Improvement: ████████████████████ [100/100]
-  - Debugging / Root Cause: ██████████████████░░ [94/100]
-
-Ability:
-  - "Process Overclock": Identifies operational friction and automates it into a silent, seamless background routine.
-```
-
-</details>
-
----
-
-## 📬 Connect & Collaborate
-
-I am always interested in discussing software projects, automation initiatives, or operational problem-solving challenges:
+I am open to discussing software projects, process automation, or technical problem-solving challenges:
 
 <p align="left">
   <a href="mailto:diego.devworks@gmail.com">
@@ -206,5 +260,5 @@ I am always interested in discussing software projects, automation initiatives, 
 <br />
 
 <p align="center">
-  <sub>Built with precision, data-driven curiosity, and a focus on continuous improvement.</sub>
+  <sub>Built with engineering precision, physical intuition, and a drive for continuous improvement.</sub>
 </p>

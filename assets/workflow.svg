@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b101b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="stepBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <linearGradient id="stepOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+
+    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .step-num { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #38bdf8; letter-spacing: 1.5px; }
+    .step-num-orange { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #f97316; letter-spacing: 1.5px; }
+    .step-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #f8fafc; }
+    .step-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #94a3b8; }
+  </style>
+
+  <!-- Connecting Pipeline Line -->
+  <line x1="120" y1="65" x2="800" y2="65" stroke="url(#flowLine)" stroke-width="2" stroke-dasharray="4 4" opacity="0.6" />
+
+  <!-- STEP 1: UNDERSTAND -->
+  <g transform="translate(15, 15)">
+    <rect width="195" height="100" rx="10" fill="url(#wfBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect width="195" height="100" rx="10" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="0 80 115 0" />
+    <circle cx="22" cy="25" r="4" fill="#38bdf8" />
+    <text x="34" y="29" class="step-num">01 // DIAGNOSE</text>
+    <text x="20" y="55" class="step-title">Understand</text>
+    <text x="20" y="75" class="step-desc">Root Cause Analysis</text>
+    <text x="20" y="90" class="step-desc">5 Whys &amp; Ishikawa</text>
+  </g>
+
+  <!-- Flow Arrow 1 -->
+  <path d="M 220 65 L 230 65 M 226 61 L 231 65 L 226 69" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- STEP 2: ANALYZE -->
+  <g transform="translate(245, 15)">
+    <rect width="195" height="100" rx="10" fill="url(#wfBg)" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="22" cy="25" r="4" fill="#f97316" />
+    <text x="34" y="29" class="step-num-orange">02 // DECONSTRUCT</text>
+    <text x="20" y="55" class="step-title">Analyze</text>
+    <text x="20" y="75" class="step-desc">Process Mapping (BPMN)</text>
+    <text x="20" y="90" class="step-desc">Bottlenecks &amp; Physics</text>
+  </g>
+
+  <!-- Flow Arrow 2 -->
+  <path d="M 450 65 L 460 65 M 456 61 L 461 65 L 456 69" stroke="#f97316" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- STEP 3: BUILD -->
+  <g transform="translate(475, 15)">
+    <rect width="195" height="100" rx="10" fill="url(#wfBg)" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="22" cy="25" r="4" fill="#38bdf8" />
+    <text x="34" y="29" class="step-num">03 // ENGINEER</text>
+    <text x="20" y="55" class="step-title">Build</text>
+    <text x="20" y="75" class="step-desc">Full-Stack Development</text>
+    <text x="20" y="90" class="step-desc">Workflow Automation</text>
+  </g>
+
+  <!-- Flow Arrow 3 -->
+  <path d="M 680 65 L 690 65 M 686 61 L 691 65 L 686 69" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- STEP 4: IMPROVE -->
+  <g transform="translate(705, 15)">
+    <rect width="195" height="100" rx="10" fill="url(#wfBg)" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="22" cy="25" r="4" fill="#f97316" />
+    <text x="34" y="29" class="step-num-orange">04 // OPTIMIZE</text>
+    <text x="20" y="55" class="step-title">Improve</text>
+    <text x="20" y="75" class="step-desc">Kaizen &amp; Six Sigma</text>
+    <text x="20" y="90" class="step-desc">Standardization &amp; QA</text>
+  </g>
+</svg>
