@@ -180,20 +180,21 @@
   </p>
 </div>
 
-Always open to discussing software projects, workflow automation, or problem-solving opportunities:
-
-<p align="left">
-  <a href="mailto:diego.devworks@gmail.com">
-    <img src="https://img.shields.io/badge/Email-diego.devworks%40gmail.com-ea4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" />
-  </a>
+<p align="center">
   <a href="https://www.linkedin.com/in/jassiel-ovalle/">
-    <img src="https://img.shields.io/badge/LinkedIn-Jassiel_Ovalle-0a66c2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+    <img src="assets/contact-linkedin.svg" alt="LinkedIn /in/jassiel-ovalle" width="49%" />
+  </a>
+  <a href="mailto:diego.devworks@gmail.com">
+    <img src="assets/contact-email.svg" alt="Email diego.devworks@gmail.com" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/OctonioTG">
+    <img src="assets/contact-github.svg" alt="GitHub @OctonioTG" width="49%" />
   </a>
   <a href="https://www.diegoovalle.dev">
-    <img src="https://img.shields.io/badge/Portfolio-diegoovalle.dev-10b981?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://github.com/OctonioTG">
-    <img src="https://img.shields.io/badge/GitHub-OctonioTG-8b5cf6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+    <img src="assets/contact-portfolio.svg" alt="Portfolio diegoovalle.dev" width="49%" />
   </a>
 </p>
 
