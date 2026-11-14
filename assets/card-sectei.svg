@@ -1,65 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 210" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="100%" height="100%">
   <defs>
-    <linearGradient id="scTop" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="cardScBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041d2d" />
+      <stop offset="40%" stop-color="#0a1528" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Holo Border Water/Electric -->
+    <linearGradient id="holoSc" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="60%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#facc15" />
       <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
-    <radialGradient id="scSpot" cx="0%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#161b22" stop-opacity="0" />
+
+    <radialGradient id="glowSc" cx="85%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
   </defs>
 
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #ffffff; }
-    .badge { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #38bdf8; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; line-height: 1.5; }
-    .pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; font-weight: 600; fill: #e2e8f0; }
+    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
+    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #38bdf8; letter-spacing: 1px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 900; fill: #ffffff; letter-spacing: -0.3px; }
+    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #38bdf8; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #cbd5e1; }
+    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #38bdf8; letter-spacing: 1.2px; }
+    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #bae6fd; font-weight: 500; }
+    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 800; fill: #ffffff; }
   </style>
 
-  <rect width="460" height="210" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.2" />
-  <rect width="460" height="210" rx="12" fill="url(#scSpot)" />
+  <rect width="480" height="270" rx="16" fill="url(#cardScBg)" stroke="#30363d" stroke-width="1.2" />
+  <rect width="480" height="270" rx="16" fill="url(#glowSc)" />
+  <rect x="2" y="2" width="476" height="266" rx="14" fill="none" stroke="url(#holoSc)" stroke-width="2" />
 
-  <path d="M 12 1 L 448 1" stroke="url(#scTop)" stroke-width="2.5" stroke-linecap="round" />
-
-  <g transform="translate(24, 24)">
-    <rect width="32" height="32" rx="8" fill="#082f49" stroke="#0284c7" stroke-width="1" />
-    <!-- Window / Layout Icon -->
-    <rect x="9" y="9" width="14" height="14" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.5" />
-    <line x1="9" y1="13" x2="23" y2="13" stroke="#38bdf8" stroke-width="1" />
-    <line x1="14" y1="13" x2="14" y2="23" stroke="#38bdf8" stroke-width="1" />
-
-    <text x="44" y="15" class="title">SECTEI Builder</text>
-    <text x="44" y="30" class="badge">Modular UI Platform &#8226; Frontend</text>
+  <!-- Cyber Pokeball Watermark -->
+  <g transform="translate(400, 75)" opacity="0.12">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#00f2fe" stroke-width="3" />
+    <path d="M -55 0 A 55 55 0 0 1 55 0 Z" fill="#00f2fe" />
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="#ffffff" stroke-width="3" />
+    <circle cx="0" cy="0" r="16" fill="#0a1528" stroke="#ffffff" stroke-width="3" />
+    <circle cx="0" cy="0" r="7" fill="#00f2fe" />
   </g>
 
-  <text x="24" y="88" class="desc">A modular visual layout engine built on reusable components to</text>
-  <text x="24" y="108" class="desc">speed up web prototyping and enforce consistent design systems.</text>
+  <!-- Top Bar: Type Pill & Dex ID -->
+  <g transform="translate(22, 18)">
+    <rect width="145" height="22" rx="11" fill="#0369a1" stroke="#00f2fe" stroke-width="1.2" />
+    <circle cx="11" cy="11" r="4" fill="#38bdf8" />
+    <text x="22" y="14.5" class="type-pill">WATER / ELECTRIC</text>
 
-  <line x1="24" y1="132" x2="436" y2="132" stroke="#21262d" stroke-width="1" />
+    <text x="436" y="15" text-anchor="end" class="dex-num">DEX // #002 &#8226; UI PLATFORM</text>
+  </g>
 
-  <g transform="translate(24, 154)">
-    <rect width="60" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-    <circle cx="12" cy="12" r="3" fill="#38bdf8" />
-    <text x="20" y="15.5" class="pill">React</text>
+  <text x="22" y="68" class="card-title">SECTEI Builder</text>
+  <text x="22" y="87" class="card-role">Modular Component Engine &#8226; Visual Layout Platform</text>
 
-    <g transform="translate(68, 0)">
-      <rect width="70" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="12" cy="12" r="3" fill="#ffffff" />
-      <text x="20" y="15.5" class="pill">Next.js</text>
+  <line x1="22" y1="98" x2="458" y2="98" stroke="#334155" stroke-width="1" />
+  <line x1="22" y1="98" x2="160" y2="98" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round" />
+
+  <text x="22" y="120" class="card-desc">Visual web interface engine powered by reusable, atomic components</text>
+  <text x="22" y="138" class="card-desc">engineered to eliminate boilerplate and accelerate layout assembly.</text>
+
+  <!-- Ability Box -->
+  <g transform="translate(22, 154)">
+    <rect width="436" height="42" rx="8" fill="#0c2d48" stroke="#0284c7" stroke-width="1.2" />
+    <text x="14" y="16" class="ability-title">SPECIAL ABILITY // ATOMIC MODULARITY</text>
+    <text x="14" y="32" class="ability-text">&#9658; 10x faster layout prototyping with enforced design systems</text>
+  </g>
+
+  <!-- Bottom Badges -->
+  <g transform="translate(22, 218)">
+    <rect width="72" height="24" rx="6" fill="#0369a1" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="13" y="16" class="tag-label">REACT</text>
+
+    <g transform="translate(80, 0)">
+      <rect width="80" height="24" rx="6" fill="#312e81" stroke="#818cf8" stroke-width="1.2" />
+      <text x="12" y="16" class="tag-label">NEXT.JS</text>
     </g>
 
-    <g transform="translate(146, 0)">
-      <rect width="74" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="12" cy="12" r="3" fill="#2dd4bf" />
-      <text x="20" y="15.5" class="pill">Tailwind</text>
+    <g transform="translate(168, 0)">
+      <rect width="88" height="24" rx="6" fill="#115e59" stroke="#2dd4bf" stroke-width="1.2" />
+      <text x="11" y="16" class="tag-label">TAILWIND</text>
     </g>
 
-    <g transform="translate(228, 0)">
-      <rect width="88" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="12" cy="12" r="3" fill="#facc15" />
-      <text x="20" y="15.5" class="pill">JavaScript</text>
+    <g transform="translate(264, 0)">
+      <rect width="98" height="24" rx="6" fill="#713f12" stroke="#facc15" stroke-width="1.2" />
+      <text x="11" y="16" class="tag-label">UI ENGINE</text>
     </g>
   </g>
 </svg>

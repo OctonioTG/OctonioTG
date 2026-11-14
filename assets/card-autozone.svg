@@ -1,71 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 210" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="100%" height="100%">
   <defs>
-    <linearGradient id="azTop" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f97316" />
-      <stop offset="60%" stop-color="#ef4444" />
-      <stop offset="100%" stop-color="#fbbf24" />
+    <!-- Background Gradient -->
+    <linearGradient id="cardAzBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180c05" />
+      <stop offset="40%" stop-color="#111726" />
+      <stop offset="100%" stop-color="#080b12" />
     </linearGradient>
-    <radialGradient id="azSpot" cx="0%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#f97316" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#161b22" stop-opacity="0" />
+
+    <!-- Holo Border Flame/Steel -->
+    <linearGradient id="holoAz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="30%" stop-color="#ef4444" />
+      <stop offset="70%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Radial Flame Glow -->
+    <radialGradient id="glowAz" cx="85%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#ef4444" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
   </defs>
 
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #ffffff; }
-    .badge { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #fb923c; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; line-height: 1.5; }
-    .pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10.5px; font-weight: 600; fill: #e2e8f0; }
+    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
+    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #fbbf24; letter-spacing: 1px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 900; fill: #ffffff; letter-spacing: -0.3px; }
+    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #fb923c; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #cbd5e1; }
+    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #fbbf24; letter-spacing: 1.2px; }
+    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #fef08a; font-weight: 500; }
+    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 800; fill: #ffffff; }
   </style>
 
-  <!-- Card Background -->
-  <rect width="460" height="210" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.2" />
-  <rect width="460" height="210" rx="12" fill="url(#azSpot)" />
+  <!-- Card Base -->
+  <rect width="480" height="270" rx="16" fill="url(#cardAzBg)" stroke="#30363d" stroke-width="1.2" />
+  <rect width="480" height="270" rx="16" fill="url(#glowAz)" />
+  <rect x="2" y="2" width="476" height="266" rx="14" fill="none" stroke="url(#holoAz)" stroke-width="2" />
 
-  <!-- Top Accent Glow Line (Modern Vercel / Linear Style) -->
-  <path d="M 12 1 L 448 1" stroke="url(#azTop)" stroke-width="2.5" stroke-linecap="round" />
-
-  <!-- Icon + Badge -->
-  <g transform="translate(24, 24)">
-    <rect width="32" height="32" rx="8" fill="#431407" stroke="#ea580c" stroke-width="1" />
-    <!-- Gear / Process Icon -->
-    <path d="M 16 10 C 12.7 10 10 12.7 10 16 C 10 19.3 12.7 22 16 22 C 19.3 22 22 19.3 22 16 C 22 12.7 19.3 10 16 10 Z M 16 18 C 14.9 18 14 17.1 14 16 C 14 14.9 14.9 14 16 14 C 17.1 14 18 14.9 18 16 C 18 17.1 17.1 18 16 18 Z" fill="#fb923c" />
-    <path d="M 15 7 L 17 7 L 17 9 L 15 9 Z M 15 23 L 17 23 L 17 25 L 15 25 Z M 7 15 L 9 15 L 9 17 L 7 17 Z M 23 15 L 25 15 L 25 17 L 23 17 Z" fill="#fb923c" />
-
-    <!-- Title & Category Badge -->
-    <text x="44" y="15" class="title">AutoZone Compliance Tools</text>
-    <text x="44" y="30" class="badge">Supply Chain Automation &#8226; Operations</text>
+  <!-- Background Cyber Pokeball Watermark -->
+  <g transform="translate(400, 75)" opacity="0.12">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#f97316" stroke-width="3" />
+    <path d="M -55 0 A 55 55 0 0 1 55 0 Z" fill="#f97316" />
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="#ffffff" stroke-width="3" />
+    <circle cx="0" cy="0" r="16" fill="#111726" stroke="#ffffff" stroke-width="3" />
+    <circle cx="0" cy="0" r="7" fill="#f97316" />
   </g>
 
-  <!-- Human Description -->
-  <text x="24" y="88" class="desc">Internal tools that automate compliance auditing, track incidents,</text>
-  <text x="24" y="108" class="desc">and standardize operational workflows for Global Supply Chain teams.</text>
+  <!-- Top Bar: Type Pill & Dex ID -->
+  <g transform="translate(22, 18)">
+    <!-- Fire / Steel Type Badge -->
+    <rect width="130" height="22" rx="11" fill="#c2410c" stroke="#f97316" stroke-width="1.2" />
+    <circle cx="11" cy="11" r="4" fill="#fbbf24" />
+    <text x="22" y="14.5" class="type-pill">FIRE / STEEL</text>
 
-  <!-- Divider -->
-  <line x1="24" y1="132" x2="436" y2="132" stroke="#21262d" stroke-width="1" />
+    <!-- Dex Registration ID -->
+    <text x="436" y="15" text-anchor="end" class="dex-num">DEX // #001 &#8226; ENTERPRISE</text>
+  </g>
 
-  <!-- Modern Tech Tags -->
-  <g transform="translate(24, 154)">
-    <rect width="66" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-    <circle cx="12" cy="12" r="3" fill="#f97316" />
-    <text x="20" y="15.5" class="pill">Python</text>
+  <!-- Card Title & Role -->
+  <text x="22" y="68" class="card-title">AutoZone Compliance Tools</text>
+  <text x="22" y="87" class="card-role">Supply Chain Global Compliance &#8226; Workflow Automation</text>
 
-    <g transform="translate(74, 0)">
-      <rect width="90" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="12" cy="12" r="3" fill="#38bdf8" />
-      <text x="20" y="15.5" class="pill">Automation</text>
+  <!-- Separator Line -->
+  <line x1="22" y1="98" x2="458" y2="98" stroke="#334155" stroke-width="1" />
+  <line x1="22" y1="98" x2="160" y2="98" stroke="#f97316" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Project Description -->
+  <text x="22" y="120" class="card-desc">Automated validation tools and incident tracking pipelines built to</text>
+  <text x="22" y="138" class="card-desc">diagnose bottlenecks and standardize operational workflows.</text>
+
+  <!-- Ability / Impact Box (Pokédex Move/Ability Style) -->
+  <g transform="translate(22, 154)">
+    <rect width="436" height="42" rx="8" fill="#2d1607" stroke="#b45309" stroke-width="1.2" />
+    <text x="14" y="16" class="ability-title">SPECIAL ABILITY // WORKFLOW OVERCLOCK</text>
+    <text x="14" y="32" class="ability-text">&#9658; Standardized incident response diagrams &amp; reduced audit friction</text>
+  </g>
+
+  <!-- Bottom Type Badges / Stack Energy -->
+  <g transform="translate(22, 218)">
+    <!-- Badge 1: Python -->
+    <rect width="78" height="24" rx="6" fill="#c2410c" stroke="#f97316" stroke-width="1.2" />
+    <text x="14" y="16" class="tag-label">PYTHON</text>
+
+    <!-- Badge 2: Automation -->
+    <g transform="translate(86, 0)">
+      <rect width="102" height="24" rx="6" fill="#0369a1" stroke="#38bdf8" stroke-width="1.2" />
+      <text x="13" y="16" class="tag-label">AUTOMATION</text>
     </g>
 
-    <g transform="translate(172, 0)">
-      <rect width="102" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="12" cy="12" r="3" fill="#eab308" />
-      <text x="20" y="15.5" class="pill">Process Map</text>
+    <!-- Badge 3: BPMN Flows -->
+    <g transform="translate(196, 0)">
+      <rect width="102" height="24" rx="6" fill="#854d0e" stroke="#eab308" stroke-width="1.2" />
+      <text x="12" y="16" class="tag-label">PROCESS MAP</text>
     </g>
 
-    <g transform="translate(282, 0)">
-      <rect width="90" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-      <circle cx="12" cy="12" r="3" fill="#10b981" />
-      <text x="20" y="15.5" class="pill">Compliance</text>
+    <!-- Badge 4: Compliance -->
+    <g transform="translate(306, 0)">
+      <rect width="95" height="24" rx="6" fill="#4c1d95" stroke="#a855f7" stroke-width="1.2" />
+      <text x="12" y="16" class="tag-label">COMPLIANCE</text>
     </g>
   </g>
 </svg>

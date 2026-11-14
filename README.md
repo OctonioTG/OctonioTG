@@ -85,25 +85,28 @@ Engineering tools and frameworks to eliminate operational friction and standardi
 
 ## Featured Projects
 
-<img align="right" src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="80" />
+<p align="center">
+  <img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="70" /><br />
+  <sub><b>Selected engineering initiatives &bull; Pokédex Tech Entries</b></sub>
+</p>
 
-Selected initiatives combining full-stack development, process automation, and applied physics:
+<br />
 
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/card-autozone.svg" alt="AutoZone Compliance Tools" width="100%" />
+      <img src="assets/card-autozone.svg" alt="AutoZone Compliance Tools - Fire/Steel" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="assets/card-sectei.svg" alt="SECTEI Builder" width="100%" />
+      <img src="assets/card-sectei.svg" alt="SECTEI Builder - Water/Electric" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/card-rfscanner.svg" alt="RF Scanner" width="100%" />
+      <img src="assets/card-rfscanner.svg" alt="RF Scanner - Ghost/Electric" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="assets/card-educaia.svg" alt="EducaIA" width="100%" />
+      <img src="assets/card-educaia.svg" alt="EducaIA - Psychic/Grass" width="100%" />
     </td>
   </tr>
 </table>
