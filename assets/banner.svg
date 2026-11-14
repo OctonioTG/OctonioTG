@@ -2,6 +2,7 @@
   <style>
     .title-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 38px; fill: #ffffff; letter-spacing: -0.5px; }
     .title-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 15px; fill: #38bdf8; letter-spacing: 1.5px; text-transform: uppercase; }
+    .autozone-pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 700; fill: #fb923c; }
     .academic-pill { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #f1f5f9; }
     .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13.5px; fill: #94a3b8; }
     .status-badge { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #34d399; }
@@ -14,27 +15,35 @@
   <!-- Solid Top Accent Bar (Cyan Blue) -->
   <rect x="0" y="0" width="950" height="4" rx="2" fill="#38bdf8" />
 
-  <!-- Status Indicator -->
+  <!-- Status Indicator: Current Position at AutoZone -->
   <g transform="translate(45, 34)">
     <circle cx="5" cy="5" r="4" fill="#10b981" />
-    <text x="18" y="9" class="status-badge">Available for Software &amp; Automation Projects</text>
+    <text x="18" y="9" class="status-badge">Programmer Student Trainee @ AutoZone &#8226; Supply Chain Global Compliance</text>
   </g>
 
-  <!-- Name & Role -->
+  <!-- Name & Professional Role -->
   <text x="45" y="92" class="title-name">Diego Ovalle</text>
   <text x="45" y="120" class="title-role">Technology &amp; Automation Developer</text>
 
-  <!-- Academic Pill -->
+  <!-- Current Position & Academic Dual Pills -->
   <g transform="translate(45, 136)">
-    <rect width="470" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <circle cx="14" cy="13" r="3.5" fill="#38bdf8" />
-    <text x="26" y="17" class="academic-pill">Computer Science Engineering &#8226; Engineering Physics (50%)</text>
+    <!-- Pill 1: AutoZone Current Role -->
+    <rect width="310" height="26" rx="6" fill="#1c130d" stroke="#f97316" stroke-width="1" />
+    <circle cx="14" cy="13" r="3.5" fill="#f97316" />
+    <text x="26" y="17" class="autozone-pill">Programmer Student Trainee @ AutoZone</text>
+
+    <!-- Pill 2: Academic Dual Foundation -->
+    <g transform="translate(320, 0)">
+      <rect width="470" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="13" r="3.5" fill="#38bdf8" />
+      <text x="26" y="17" class="academic-pill">Computer Science Engineering &#8226; Engineering Physics (50%)</text>
+    </g>
   </g>
 
-  <!-- Tagline -->
+  <!-- Narrative Tagline -->
   <text x="45" y="190" class="subtitle">"I use technology to solve real-world problems, automate workflows and continuously improve processes."</text>
 
-  <!-- Solid Bottom Tags -->
+  <!-- Solid Bottom Competency Tags -->
   <g transform="translate(45, 216)">
     <rect width="140" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
     <circle cx="14" cy="14" r="3" fill="#38bdf8" />
