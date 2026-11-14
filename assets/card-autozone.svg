@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 250" width="100%" height="100%">
+  <defs>
+    <!-- Card Background -->
+    <linearGradient id="azBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c0f05" />
+      <stop offset="50%" stop-color="#0f1526" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Glowing Border Gradient -->
+    <linearGradient id="azBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="40%" stop-color="#ef4444" />
+      <stop offset="80%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="azGlow" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    .cat-tag { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 800; fill: #f97316; letter-spacing: 1.5px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 17.5px; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
+    .card-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #fbbf24; }
+    .card-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; line-height: 1.4; }
+    .impact-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #fef08a; }
+    .tag-text { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #ffffff; }
+  </style>
+
+  <!-- Base Card -->
+  <rect width="440" height="250" rx="14" fill="url(#azBg)" />
+  <rect width="440" height="250" rx="14" fill="url(#azGlow)" />
+  <rect x="1" y="1" width="438" height="248" rx="13" fill="none" stroke="url(#azBorder)" stroke-width="1.8" />
+
+  <!-- Top Accent Tag -->
+  <rect x="20" y="18" width="150" height="18" rx="4" fill="#431407" stroke="#f97316" stroke-width="1" />
+  <circle cx="28" cy="27" r="3" fill="#f97316" />
+  <text x="36" y="30.5" class="cat-tag">ENTERPRISE TOOLING</text>
+
+  <!-- Title & Subtitle -->
+  <text x="20" y="58" class="card-title">AutoZone &bull; Global Compliance</text>
+  <text x="20" y="76" class="card-sub">Supply Chain Tooling &amp; Workflow Automation</text>
+
+  <!-- Divider Line -->
+  <line x1="20" y1="88" x2="420" y2="88" stroke="#334155" stroke-width="1" />
+  <line x1="20" y1="88" x2="160" y2="88" stroke="#f97316" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Description Body -->
+  <text x="20" y="108" class="card-body">Engineered internal automated validation tools and incident</text>
+  <text x="20" y="125" class="card-body">diagnostic pipelines to streamline Global Supply Chain workflows.</text>
+
+  <!-- Impact Highlight Box -->
+  <g transform="translate(20, 142)">
+    <rect width="400" height="32" rx="6" fill="#2d1607" stroke="#b45309" stroke-width="1" />
+    <circle cx="15" cy="16" r="3.5" fill="#fbbf24" />
+    <text x="26" y="20" class="impact-text">&bull; Standardized incident diagrams &amp; cut verification bottlenecks</text>
+  </g>
+
+  <!-- Colorful Technology Tags at Bottom -->
+  <g transform="translate(20, 192)">
+    <!-- Tag 1: Python -->
+    <rect width="68" height="22" rx="5" fill="#c2410c" stroke="#f97316" stroke-width="1" />
+    <text x="12" y="15" class="tag-text">PYTHON</text>
+
+    <!-- Tag 2: Automation -->
+    <g transform="translate(74, 0)">
+      <rect width="88" height="22" rx="5" fill="#0369a1" stroke="#38bdf8" stroke-width="1" />
+      <text x="10" y="15" class="tag-text">AUTOMATION</text>
+    </g>
+
+    <!-- Tag 3: BPMN Flows -->
+    <g transform="translate(168, 0)">
+      <rect width="80" height="22" rx="5" fill="#854d0e" stroke="#eab308" stroke-width="1" />
+      <text x="10" y="15" class="tag-text">PROCESS MAP</text>
+    </g>
+
+    <!-- Tag 4: Compliance -->
+    <g transform="translate(254, 0)">
+      <rect width="78" height="22" rx="5" fill="#4c1d95" stroke="#a855f7" stroke-width="1" />
+      <text x="10" y="15" class="tag-text">COMPLIANCE</text>
+    </g>
+  </g>
+</svg>

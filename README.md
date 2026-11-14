@@ -118,7 +118,7 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
 </p>
 
 <!-- ======================================================== -->
-<!-- 03. FEATURED PROJECTS                                     -->
+<!-- 03. FEATURED PROJECTS (2X2 COMPACT VISUAL GRID)           -->
 <!-- ======================================================== -->
 <p align="center">
   <img src="assets/header-projects.svg" alt="Featured Projects &amp; Operational Impact" width="100%" />
@@ -126,46 +126,26 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="80" />
 
-<p align="center">
-  <img src="assets/project-autozone.svg" alt="AutoZone Project Card" width="100%" />
-</p>
+<p>Engineering initiatives highlighting full-stack execution, process automation, and applied physics:</p>
 
-- **Challenge:** Operational teams managing global supply chain compliance faced fragmented manual verification processes and recurring incident bottlenecks.
-- **Engineering Solution:** Developed internal tools and automation scripts to track compliance incidents, map operational workflows, and streamline support procedures.
-- **Operational Value:** Standardized incident response diagrams, reduced manual verification overhead, and improved audit visibility.
-
-<br />
-
-<p align="center">
-  <img src="assets/project-sectei.svg" alt="SECTEI Builder Project Card" width="100%" />
-</p>
-
-- **Challenge:** Creating recurring web layouts often involves repetitive boilerplate code, increasing frontend friction and design fragmentation.
-- **Engineering Solution:** Engineered a modular builder platform enabling users to assemble web layouts using standardized, customizable components.
-- **Operational Value:** Accelerates prototyping speed, enforces design consistency, and makes layout creation accessible.
-- <!-- [Repository](https://github.com/DiegoOvalle348795/sectei-builder) -->
-
-<br />
-
-<p align="center">
-  <img src="assets/project-rfscanner.svg" alt="RF Scanner Project Card" width="100%" />
-</p>
-
-- **Challenge:** Inspecting and analyzing live radio frequency environments traditionally requires expensive proprietary hardware and complex desktop tooling.
-- **Engineering Solution:** Combined Software-Defined Radio (SDR) hardware, a Python digital signal processing backend, and a responsive React frontend for live waterfall and spectrum visualization.
-- **Operational Value:** Bridges physical electromagnetism with web engineering, enabling accessible spectrum analysis and frequency sweeps.
-- <!-- [Repository](https://github.com/DiegoOvalle348795/rf-scanner) -->
-
-<br />
-
-<p align="center">
-  <img src="assets/project-educaia.svg" alt="EducaIA Project Card" width="100%" />
-</p>
-
-- **Challenge:** Educational institutions frequently collect vast amounts of student performance data without actionable diagnostic mechanisms.
-- **Engineering Solution:** Implemented data processing pipelines and predictive models to detect academic performance trends and assist educators in data-driven decision making.
-- **Operational Value:** Empowers educators with objective, data-backed insights to drive continuous improvement in academic programs.
-- <!-- [Repository](https://github.com/DiegoOvalle348795/educa-ia) -->
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/card-autozone.svg" alt="AutoZone Project Card" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/card-sectei.svg" alt="SECTEI Builder Project Card" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/card-rfscanner.svg" alt="RF Scanner Project Card" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/card-educaia.svg" alt="EducaIA Project Card" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
