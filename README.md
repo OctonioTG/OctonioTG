@@ -1,35 +1,40 @@
 <!-- ======================================================== -->
-<!-- BANNER & PROFESSIONAL HEADER                              -->
+<!-- HERO BANNER                                               -->
 <!-- ======================================================== -->
 <p align="center">
   <img src="assets/banner.svg" alt="Diego Ovalle - Technology & Automation Developer" width="100%" />
 </p>
 
-<!-- Top Squad Lineup -->
+<!-- Squad Lineup -->
 <p align="center">
-  <img src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="68" />
+  <a href="#about-me" title="Lucario: Focus & Analytical Problem Solving"><img src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="68" />
+  <a href="#continuous-learning" title="Aegislash: Quality & Dual Engineering Rigor"><img src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="74" />
+  <a href="#areas-of-expertise" title="Golurk: Heavy Systems & Automation"><img src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="74" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="68" />
+  <a href="#github-analytics" title="Ceruledge: High-Speed Full-Stack Delivery"><img src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="68" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="62" />
+  <a href="#featured-projects" title="Greninja: Agile SDR Signal Analysis"><img src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="62" /></a>
 </p>
 
 <p align="center">
-  <a href="#about-me"><img src="https://img.shields.io/badge/Focus-Automation_%26_Problem_Solving-0284c7?style=for-the-badge&logoColor=white" alt="Focus"></a>
-  <a href="#areas-of-expertise"><img src="https://img.shields.io/badge/Stack-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
-  <a href="#continuous-improvement--education"><img src="https://img.shields.io/badge/Methodology-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
-  <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-Real--World_Solutions-ea580c?style=for-the-badge&logoColor=white" alt="Projects"></a>
+  <a href="#about-me"><img src="https://img.shields.io/badge/FOCUS-Automation_%26_Problem_Solving-0284c7?style=for-the-badge&logoColor=white" alt="Focus"></a>
+  <a href="#areas-of-expertise"><img src="https://img.shields.io/badge/STACK-Python_%7C_React_%7C_Full--Stack-f97316?style=for-the-badge&logoColor=white" alt="Stack"></a>
+  <a href="#continuous-learning"><img src="https://img.shields.io/badge/METHODOLOGY-Lean_Six_Sigma_%7C_Kaizen-38bdf8?style=for-the-badge&logoColor=white" alt="Methodology"></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/PROJECTS-Real--World_Solutions-ea580c?style=for-the-badge&logoColor=white" alt="Projects"></a>
 </p>
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-## About Me
+<!-- ======================================================== -->
+<!-- 01. ABOUT ME                                              -->
+<!-- ======================================================== -->
+<p align="center">
+  <img src="assets/header-about.svg" alt="About Me &amp; Philosophy" width="100%" />
+</p>
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/lucario.gif" alt="Lucario" height="85" />
 
@@ -43,7 +48,7 @@ Rather than developing software in isolation, I focus on understanding operation
 > *"I use technology to solve real-world problems, automate workflows and continuously improve processes."*
 
 <p align="center">
-  <img src="assets/workflow.svg" alt="Engineering & Problem Solving Workflow" width="100%" />
+  <img src="assets/workflow.svg" alt="Engineering &amp; Problem Solving Workflow" width="100%" />
 </p>
 
 - **Dual Academic Foundation:** Computer Science Engineering &bull; Engineering Physics (50% Completed)
@@ -54,7 +59,12 @@ Rather than developing software in isolation, I focus on understanding operation
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<h2 id="areas-of-expertise">Areas of Expertise</h2>
+<!-- ======================================================== -->
+<!-- 02. AREAS OF EXPERTISE                                    -->
+<!-- ======================================================== -->
+<p align="center">
+  <img src="assets/header-skills.svg" alt="Technical Arsenal &amp; Methodologies" width="100%" />
+</p>
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/golurk.gif" alt="Golurk" height="90" />
 
@@ -104,48 +114,66 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<h2 id="featured-projects">Featured Projects & Impact</h2>
+<!-- ======================================================== -->
+<!-- 03. FEATURED PROJECTS                                     -->
+<!-- ======================================================== -->
+<p align="center">
+  <img src="assets/header-projects.svg" alt="Featured Projects &amp; Operational Impact" width="100%" />
+</p>
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/greninja.gif" alt="Greninja" height="80" />
 
-### AutoZone &bull; Supply Chain Global Compliance Tools
-*Internal automation and operational tooling for enterprise compliance workflows.*
-- **Context & Problem:** Operational teams handling global supply chain compliance required centralized tracking for incidents and recurring validation bottlenecks.
+<p align="center">
+  <img src="assets/project-autozone.svg" alt="AutoZone Project Card" width="100%" />
+</p>
+
+- **Challenge:** Operational teams managing global supply chain compliance faced fragmented manual verification processes and recurring incident bottlenecks.
 - **Engineering Solution:** Developed internal tools and automation scripts to track compliance incidents, map operational workflows, and streamline support procedures.
-- **Key Focus:** Python &bull; Process Mapping &bull; Workflow Automation &bull; Global Compliance Auditing
+- **Operational Value:** Standardized incident response diagrams, reduced manual verification overhead, and improved audit visibility.
 
----
+<br />
 
-### SECTEI Builder &bull; Modular UI Component Platform
-*Visual web interface builder designed on a reusable component architecture.*
-- **Context & Problem:** Accelerating interface development while maintaining strict brand consistency and eliminating frontend boilerplate.
-- **Engineering Solution:** Created a visual platform using modular, reusable components allowing fast layout assembly and standardized design patterns.
-- **Key Focus:** React &bull; Next.js &bull; JavaScript &bull; Tailwind CSS &bull; Component Architecture
+<p align="center">
+  <img src="assets/project-sectei.svg" alt="SECTEI Builder Project Card" width="100%" />
+</p>
+
+- **Challenge:** Creating recurring web layouts often involves repetitive boilerplate code, increasing frontend friction and design fragmentation.
+- **Engineering Solution:** Engineered a modular builder platform enabling users to assemble web layouts using standardized, customizable components.
+- **Operational Value:** Accelerates prototyping speed, enforces design consistency, and makes layout creation accessible.
 - <!-- [Repository](https://github.com/DiegoOvalle348795/sectei-builder) -->
 
----
+<br />
 
-### RF Scanner &bull; SDR Frequency Monitoring & Signal Analysis
-*Real-time radio frequency scanning, signal detection, and spectrum diagnostics system.*
-- **Context & Problem:** Bridging physical electromagnetism and software to provide an accessible interface for live radio frequency monitoring without expensive specialized lab hardware.
+<p align="center">
+  <img src="assets/project-rfscanner.svg" alt="RF Scanner Project Card" width="100%" />
+</p>
+
+- **Challenge:** Inspecting and analyzing live radio frequency environments traditionally requires expensive proprietary hardware and complex desktop tooling.
 - **Engineering Solution:** Combined Software-Defined Radio (SDR) hardware, a Python digital signal processing backend, and a responsive React frontend for live waterfall and spectrum visualization.
-- **Key Focus:** Applied Physics &bull; SDR &bull; Python &bull; React &bull; Signal Processing &bull; REST APIs
+- **Operational Value:** Bridges physical electromagnetism with web engineering, enabling accessible spectrum analysis and frequency sweeps.
 - <!-- [Repository](https://github.com/DiegoOvalle348795/rf-scanner) -->
 
----
+<br />
 
-### EducaIA &bull; Educational Data Intelligence & AI Analytics
-*Analytical data platform applying machine learning to educational metrics.*
-- **Context & Problem:** Extracting actionable pedagogical insights from raw institutional student performance metrics.
+<p align="center">
+  <img src="assets/project-educaia.svg" alt="EducaIA Project Card" width="100%" />
+</p>
+
+- **Challenge:** Educational institutions frequently collect vast amounts of student performance data without actionable diagnostic mechanisms.
 - **Engineering Solution:** Implemented data processing pipelines and predictive models to detect academic performance trends and assist educators in data-driven decision making.
-- **Key Focus:** Python &bull; Data Analysis &bull; Machine Learning &bull; Statistical Indicators
+- **Operational Value:** Empowers educators with objective, data-backed insights to drive continuous improvement in academic programs.
 - <!-- [Repository](https://github.com/DiegoOvalle348795/educa-ia) -->
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-<h2 id="continuous-improvement--education">Continuous Improvement & Education</h2>
+<!-- ======================================================== -->
+<!-- 04. CONTINUOUS LEARNING & ACADEMICS                       -->
+<!-- ======================================================== -->
+<p align="center">
+  <img src="assets/header-education.svg" alt="Engineering Foundations &amp; Continuous Learning" width="100%" />
+</p>
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/aegislash.gif" alt="Aegislash" height="85" />
 
@@ -158,7 +186,12 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-## GitHub Analytics
+<!-- ======================================================== -->
+<!-- 05. GITHUB ANALYTICS                                      -->
+<!-- ======================================================== -->
+<p align="center">
+  <img src="assets/header-stats.svg" alt="Activity Analytics &amp; Repository Stats" width="100%" />
+</p>
 
 <img align="right" src="https://play.pokemonshowdown.com/sprites/ani/ceruledge.gif" alt="Ceruledge" height="85" />
 
@@ -175,7 +208,12 @@ Ensuring solutions meet technical standards, data integrity, and compliance requ
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
 </p>
 
-## Connect & Collaborate
+<!-- ======================================================== -->
+<!-- 06. CONNECT & COLLABORATE                                 -->
+<!-- ======================================================== -->
+<p align="center">
+  <img src="assets/header-contact.svg" alt="Connect &amp; Collaborate" width="100%" />
+</p>
 
 I am open to discussing software projects, process automation, or technical problem-solving challenges:
 
