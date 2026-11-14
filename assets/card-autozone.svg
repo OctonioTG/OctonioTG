@@ -1,66 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 185" width="100%" height="100%">
   <style>
-    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
-    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 700; fill: #f97316; letter-spacing: 1px; }
-    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
-    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #fb923c; }
-    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94a3b8; }
-    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #f97316; letter-spacing: 1.2px; }
-    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #cbd5e1; font-weight: 500; }
-    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9px; font-weight: 700; fill: #ffffff; }
+    .type-pill { font-family: 'SF Mono', Consolas, monospace; font-size: 10.5px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
+    .dex-num { font-family: 'SF Mono', Consolas, monospace; font-size: 11px; font-weight: 700; fill: #fb923c; letter-spacing: 1px; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 800; fill: #ffffff; letter-spacing: -0.3px; }
+    .card-role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #fb923c; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #cbd5e1; }
+    .ability-title { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 800; fill: #fb923c; letter-spacing: 1px; }
+    .ability-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #f8fafc; font-weight: 500; }
+    .tag-label { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 700; fill: #ffffff; }
   </style>
 
-  <!-- Solid Dark Card Base -->
-  <rect width="480" height="270" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <rect width="850" height="185" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <rect x="0" y="0" width="6" height="185" rx="3" fill="#ea580c" />
 
-  <!-- Solid Top Accent Bar (AutoZone Orange) -->
-  <rect x="0" y="0" width="480" height="4" rx="2" fill="#f97316" />
-
-  <!-- Top Bar: Type Pill & Dex ID -->
-  <g transform="translate(22, 20)">
+  <!-- Top Line: Type & Dex -->
+  <g transform="translate(26, 18)">
     <rect width="130" height="22" rx="6" fill="#c2410c" />
     <circle cx="11" cy="11" r="3.5" fill="#fef08a" />
     <text x="22" y="14.5" class="type-pill">FIRE / STEEL</text>
-
-    <text x="436" y="15" text-anchor="end" class="dex-num">DEX // #002 &#8226; COMPLIANCE HUB</text>
+    <text x="796" y="15" text-anchor="end" class="dex-num">DEX // #002 &#8226; SUPPLY CHAIN COMPLIANCE</text>
   </g>
 
   <!-- Title & Subtitle -->
-  <text x="22" y="70" class="card-title">AutoZone Compliance Hub</text>
-  <text x="22" y="90" class="card-role">Enterprise Automation &#8226; Supply Chain Global Compliance</text>
-
-  <!-- Solid Divider Line -->
-  <line x1="22" y1="102" x2="458" y2="102" stroke="#21262d" stroke-width="1.5" />
+  <text x="26" y="66" class="card-title">AutoZone &#8226; Compliance Automation Hub</text>
+  <text x="26" y="86" class="card-role">Enterprise Automation &#8226; Supply Chain Global Compliance</text>
 
   <!-- Description -->
-  <text x="22" y="124" class="card-desc">Centralized platform streamlining incident analytics, CAR management,</text>
-  <text x="22" y="142" class="card-desc">automated email workflows, and global compliance tracking.</text>
+  <text x="26" y="112" class="card-desc">Centralized platform streamlining incident analytics, CAR management, automated email workflows, and global compliance tracking.</text>
 
-  <!-- Pokédex Ability Box (Solid Background) -->
-  <g transform="translate(22, 158)">
-    <rect width="436" height="42" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
-    <text x="14" y="16" class="ability-title">SPECIAL ABILITY // COMPLIANCE AUTOMATION</text>
-    <text x="14" y="32" class="ability-text">&#9658; Issues analytics, CAR management, and automated email generation</text>
-  </g>
+  <!-- Ability & Tags Row -->
+  <g transform="translate(26, 132)">
+    <rect width="455" height="36" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="12" y="14" class="ability-title">SPECIAL ABILITY // COMPLIANCE AUTOMATION</text>
+    <text x="12" y="28" class="ability-text">&#9658; Issues analytics, CAR management &amp; automated notification workflows</text>
 
-  <!-- Bottom Solid Tags -->
-  <g transform="translate(22, 222)">
-    <rect width="78" height="24" rx="6" fill="#0369a1" />
-    <text x="11" y="16" class="tag-label">REACT / JS</text>
+    <!-- Tags Right -->
+    <g transform="translate(470, 6)">
+      <rect width="85" height="24" rx="5" fill="#0369a1" />
+      <text x="8" y="16" class="tag-label">REACT / JS</text>
 
-    <g transform="translate(86, 0)">
-      <rect width="88" height="24" rx="6" fill="#312e81" />
-      <text x="10" y="16" class="tag-label">POSTGRESQL</text>
-    </g>
+      <g transform="translate(93, 0)">
+        <rect width="84" height="24" rx="5" fill="#0f766e" />
+        <text x="9" y="16" class="tag-label">POSTGRES</text>
+      </g>
 
-    <g transform="translate(182, 0)">
-      <rect width="90" height="24" rx="6" fill="#581c87" />
-      <text x="11" y="16" class="tag-label">POWER APPS</text>
-    </g>
+      <g transform="translate(185, 0)">
+        <rect width="90" height="24" rx="5" fill="#7c3aed" />
+        <text x="8" y="16" class="tag-label">POWER APPS</text>
+      </g>
 
-    <g transform="translate(280, 0)">
-      <rect width="86" height="24" rx="6" fill="#0f766e" />
-      <text x="11" y="16" class="tag-label">SHAREPOINT</text>
+      <g transform="translate(283, 0)">
+        <rect width="68" height="24" rx="5" fill="#334155" />
+        <text x="8" y="16" class="tag-label">EXCEL</text>
+      </g>
     </g>
   </g>
 </svg>
