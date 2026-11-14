@@ -105,24 +105,16 @@
 
 <br />
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="assets/card-ford.svg" alt="Ford Kaizen Traceability System" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/card-autozone.svg" alt="AutoZone Compliance Hub" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="assets/card-dairyqueen.svg" alt="Dairy Queen Operations" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/card-fiscalia.svg" alt="Fiscalía Document Lifecycle &amp; Archive System" width="100%" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/card-ford.svg" alt="Ford Kaizen Traceability System" width="48.5%" />
+  &nbsp;
+  <img src="assets/card-autozone.svg" alt="AutoZone Compliance Hub" width="48.5%" />
+</p>
+<p align="center">
+  <img src="assets/card-dairyqueen.svg" alt="Dairy Queen Operations" width="48.5%" />
+  &nbsp;
+  <img src="assets/card-fiscalia.svg" alt="Fiscalía Document Lifecycle &amp; Archive System" width="48.5%" />
+</p>
 
 <p align="center">
   <img src="assets/bar-divider.svg" alt="Divider" width="100%" />
